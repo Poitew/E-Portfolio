@@ -1,0 +1,49 @@
+.presentation {
+    float: left;
+    width: 75vw;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.presentation h1 {
+    word-spacing: 1vw;
+    height: 20vh;
+    font-weight: 400;
+}
+
+.presentation h1 span {
+    color: rgb(35, 154, 59);
+    font-weight: 800;
+}
+
+.inline-end {
+    float: inline-end;
+}
+
+.presentation h3 {
+    margin: 0;
+    margin-left: 5%;
+    margin-bottom: 1.5%;
+    width: 40vw;
+    font-weight: 300;
+}
+
+.about-me-redirect {
+    width: 30%;
+    margin-left: 40%;
+}
+
+.about-me-redirect h4 {
+    float: left;
+    margin: 0;
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 22%;
+    color: rgb(17, 169, 0);
+}
+
+.about-me-redirect img {
+    width: 1.5vw;
+    margin-top: 4%;
+    transform: rotate(-90deg);
+}

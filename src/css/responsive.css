@@ -1,0 +1,449 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media only screen and (max-width: 1399.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199.98px) {
+    i {
+        font-size: 5vw !important;
+    }
+
+    p {
+        margin: 0;
+        font-size: calc(0.1rem + 2.8vw);
+    }
+
+    .first-background {
+        height: 86vh;
+    }
+
+    #my-name-header {
+        margin-top: 1.5%;
+        margin-right: 10%;
+    }
+
+    aside {
+        width: 10vw;
+        height: 85vh;
+        grid-template-columns: 5vw;
+        grid-template-rows: 10vh 10vh 10vh 10vh;
+        gap: 2.8vw;
+    }
+
+    .center-icon2 {
+        margin: auto;
+        margin-left: 35%;
+    }
+
+    .presentation h1 {
+        font-size: 6vw;
+    }
+
+    .presentation h1 span {
+        float: none;
+    }
+
+    .presentation h3 {
+        font-size: 5vw;
+        width: 60vw;
+    }
+
+    .presentation h4 {
+        font-size: 4vw;
+        width: 40vw;
+    }
+
+    #about-me-ID {
+        margin-top: 110%;
+    }
+
+    #projectID {
+        margin-top: 280%;
+    }
+
+    .projects-header p {
+        font-size: 3.5vw;
+    }
+
+    .projects-section {
+        height: 80vh;
+    }
+
+    .project-title {
+        font-size: 3.5vw;
+        margin-right: 0;
+    }
+
+    .project-image {
+        width: 45vw;
+        margin-left: -14%;
+    }
+
+    .project-description {
+        font-size: 2.8vw;
+        width: 45vw;
+        margin-left: 40%;
+    }
+
+    .tech-stack-project {
+        margin-left: 33%;
+        margin-top: 0;
+    }
+
+    .project-icons {
+        margin-top: 1%;
+        margin-right: 15%;
+        height: 3vh;
+        width: 20vw;
+        display: grid;
+        grid-template-columns: 5vw 5vw 5vw;
+        height: auto;
+        gap: 2vw 2vh;
+    }
+
+    .project-icons img {
+        width: 5vw;
+        margin-right: 5%;
+    }
+
+    .live-demo {
+        height: 3vh;
+        margin-top: 16%;
+    }
+
+    .live-demo i {
+        font-size: 4vw !important;
+    }
+
+    .footer-contact {
+        width: 70vw;
+        grid-template-columns: 10vw 10vw 10vw 10vw;
+        height: 5vh;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991.98px) {
+    header {
+        height: 10vh;
+    }
+
+    .nav-bar-divs {
+        margin-top: 1.4%;
+    }
+
+    #link-wrapper {
+        margin-top: 1%;
+    }
+
+    .first-background {
+        height: 103vh;
+    }
+
+    aside {
+        height: 100vh;
+    }
+
+    .presentation {
+        margin-top: 20%;
+    }
+
+    .presentation h1 {
+        font-size: 6.5vw;
+    }
+
+    .presentation span {
+        font-size: calc(0.5rem + 3vw);
+        font-weight: lighter;
+    }
+
+    .presentation h3 {
+        font-size: 4.5vw;
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .presentation h4 {
+        font-size: 3.5vw;
+        width: 30vw;
+    }
+
+    .about-me-redirect {
+        width: 75%;
+        height: 5vh;
+        margin-left: 23%;
+    }
+
+    .about-me-redirect i {
+        margin-top: 8%;
+    }
+
+    .about-me-section {
+        height: 120vh;
+    }
+
+    .about-me-section p {
+        font-size: 3.5vw;
+    }
+
+    .about-me-story {
+        width: 90%;
+        margin: 10% 0 0 0;
+    }
+
+    .tech-stack {
+        float: left;
+        margin: 120% 0 0 30%;
+        z-index: -100;
+        position: absolute;
+    }
+
+    .tech-stack-grid {
+        grid-template-columns: 12vw 12vw 12vw 12vw;
+        grid-template-rows: 6vh 6vh 6vh;
+        margin-top: 0;
+    }
+
+    .tech-stack p {
+        font-size: 2vw;
+        width: 20vw;
+        font-size: smaller;
+    }
+
+    .tech-stack-grid img {
+        width: 5vw;
+    }
+
+    .projects-header {
+        margin-top: 0%;
+    }
+
+    .projects-header p {
+        font-size: 4vw;
+    }
+
+    .projects-section {
+        height: 120vh;
+        grid-gap: 15.4vw;
+    }
+
+    .grid-project1 {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .project-image-left {
+        width: 80vw;
+        margin-left: 10%;
+    }
+
+    .project-text-left,
+    .project-text-right {
+        margin-left: 23%;
+        float: none;
+        font-size: 5.5vw;
+        width: 60vw;
+    }
+
+    .project-text-left span,
+    .project-text-right span {
+        font-size: 4.5vw;
+    }
+
+    .tech-project-left,
+    .tech-project-right {
+        margin-left: 18%;
+    }
+
+    .tech-project-left p,
+    .tech-project-right p {
+        font-size: 6vw;
+        width: 33vw;
+        float: left;
+    }
+
+    .project-icons-left,
+    .project-icons-right {
+        gap: 5vw;
+        margin-top: 5%;
+        border: 0;
+    }
+
+    .project-icons-left img,
+    .project-icons-right img {
+        width: 5vw;
+        margin-right: 5%;
+    }
+
+    .live-demo-left,
+    .live-demo-right {
+        margin-top: 5%;
+        width: 40vw;
+    }
+
+    .live-demo-left p,
+    .live-demo-right p {
+        font-size: 6vw;
+    }
+
+    .live-demo-left i,
+    .live-demo-right i {
+        font-size: 5vw !important;
+        margin-top: 2%;
+    }
+
+    .grid-project2 {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .project-image-right {
+        width: 80vw;
+        float: none;
+        position: absolute;
+        margin-top: -88%;
+        margin-left: 10%;
+    }
+
+    .project-text-right {
+        margin-top: 43%;
+        margin-bottom: 5%;
+    }
+
+    .tech-project-right {
+        width: 10vw;
+        margin-top: 0;
+    }
+
+    .live-demo-right {
+        float: right;
+        margin: 0;
+        margin-top: -14%;
+    }
+
+    footer {
+        margin-top: 15%;
+        height: 22vh;
+    }
+
+    footer span {
+        font-size: 3vw;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767.98px) {
+    header {
+        height: 10vh;
+    }
+
+    .nav-bar-divs {
+        margin-top: 1.4%;
+    }
+
+    aside {
+        height: 100vh;
+    }
+
+    .first-background {
+        height: 100vh;
+    }
+
+    .presentation h3 {
+        font-size: 3vw;
+    }
+
+    #about-me-ID {
+        margin-top: 110%;
+    }
+
+    .about-me-section {
+        height: 190vh;
+    }
+
+    #projectID {
+        margin-top: 250%;
+    }
+
+    .projects-section {
+        height: 100vh;
+    }
+
+    footer {
+        height: 25vh;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    i {
+        font-size: 5vw !important;
+    }
+
+    p {
+        margin: 0;
+        font-size: calc(0.1rem + 3vw);
+    }
+
+    header {
+        height: 6vh;
+    }
+
+    #link-wrapper {
+        margin-top: 0;
+    }
+
+    #my-name-header {
+        margin-top: 2.5%;
+        margin-right: 10%;
+    }
+
+    .first-background {
+        height: 51vh;
+    }
+
+    aside {
+        width: 10vw;
+        height: 49vh;
+        grid-template-columns: 5vw;
+        grid-template-rows: 10vh 10vh 10vh 10vh;
+        gap: 2.8vw;
+    }
+
+    .presentation h1 {
+        height: 10vh;
+    }
+
+    .presentation h1 span {
+        float: none;
+    }
+
+    #about-me-ID {
+        margin-top: 100%;
+    }
+
+    .about-me-section {
+        height: 90vh;
+        margin-bottom: 20%;
+    }
+
+    #projectID {
+        margin-top: 315%;
+    }
+
+    .projects-header {
+        margin-bottom: 5%;
+    }
+
+    .projects-section {
+        gap: 0;
+    }
+
+    footer {
+        height: 20vh;
+    }
+}

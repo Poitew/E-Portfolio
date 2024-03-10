@@ -1,0 +1,185 @@
+#about-me-ID {
+    margin-top: 51%;
+    z-index: -1;
+    position: absolute;
+}
+
+.projects-section {
+    width: 100%;
+    height: 130vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 1.4vw;
+}
+
+/*left project*/
+.grid-project1 {
+    margin-top: 0.5%;
+    margin-left: 15%;
+    width: 60vw;
+}
+
+.project-image-left {
+    float: left;
+    width: 30vw;
+    margin-top: 3%;
+    border: outset;
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-image-left:hover {
+    transform: rotate(-5deg);
+}
+
+.project-text-left {
+    width: 20vw;
+    text-align: center;
+    float: right;
+    margin-left: 11%;
+    font-size: 1.2vw;
+}
+
+.project-text-left span {
+    font-size: 0.9vw;
+    margin-top: 5%;
+    color: lightgray;
+}
+
+.tech-project-left {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 16%;
+    margin-left: 10%;
+}
+
+.tech-project-left {
+    position: relative;
+    width: 18vw;
+    margin-top: 4.3%;
+    float: left;
+    margin-left: 14.5%;
+}
+
+.tech-project-left p {
+    position: relative;
+    width: 7vw;
+    margin-top: 4.3%;
+    margin-right: 2%;
+    float: left;
+}
+
+.project-icons-left {
+    display: grid;
+    grid-template-columns: 2vw 2vw 2vw;
+    gap: 1vw;
+    float: right;
+    margin-top: -11%;
+    margin-right: 10%;
+    border-left: solid;
+    padding-left: 1vw;
+}
+
+.project-icons-left img {
+    width: 2vw;
+}
+
+.live-demo-left {
+    width: 10vw;
+    margin-top: 6%;
+    margin-left: 21%;
+    float: left;
+}
+
+.live-demo-left p {
+    float: left;
+    margin-right: 5%;
+    color: rgb(195, 97, 97);
+}
+
+.live-demo-left img {
+    width: 1.5vw;
+}
+
+/*right project*/
+.grid-project2 {
+    margin-left: 15%;
+    width: 60vw;
+    height: 55vh;
+}
+
+.project-text-right {
+    width: 20vw;
+    text-align: center;
+    float: left;
+    margin-left: 11%;
+    font-size: 1.2vw;
+    margin-top: 5%;
+}
+
+.project-text-right span {
+    font-size: 0.9vw;
+    margin-top: 5%;
+    color: lightgray;
+}
+
+.tech-project-right {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 16%;
+    margin-left: 10%;
+}
+
+.tech-project-right p {
+    position: relative;
+    width: 6vw;
+    margin-top: 4.3%;
+    margin-right: 2%;
+    float: left;
+}
+
+.project-icons-right {
+    display: grid;
+    grid-template-columns: 2vw 2vw 2vw;
+    gap: 1vw;
+    border-left: solid;
+    padding-left: 1vw;
+}
+
+.project-icons-right img {
+    width: 2vw;
+}
+
+.live-demo-right {
+    width: 7vw;
+    margin-top: 6%;
+    margin-left: 15%;
+}
+
+.live-demo-right p {
+    float: left;
+    margin-right: 6%;
+    color: rgb(195, 97, 97);
+}
+
+.live-demo-right img {
+    width: 1.5vw;
+}
+
+.project-image-right {
+    float: right;
+    width: 30vw;
+    margin-top: -21%;
+    margin-right: -13%;
+    border: outset;
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-image-right:hover {
+    transform: rotate(5deg);
+}
+
+/*general*/
+.center-icon {
+    margin: auto;
+}

@@ -1,0 +1,68 @@
+header {
+    background-color: var(--divs);
+    width: 100%;
+    height: 8.3vh;
+    z-index: 105;
+    position: fixed;
+    box-shadow: 0px 0px 15px 3px rgba(255, 0, 0, 0.77);
+    font-size: 1.4vw !important;
+}
+
+#my-name-header {
+    float: right;
+    width: 10vw;
+    margin-top: 0.5%;
+    margin-right: 2%;
+    color: white;
+}
+
+#link-wrapper {
+    margin-top: 0.8%;
+    height: 100%;
+}
+
+.home {
+    margin-left: 26%;
+}
+
+.projects-nav-bar {
+    margin-left: 6%;
+}
+
+.about-me {
+    margin-left: 5%;
+}
+
+.nav-bar-divs {
+    width: 10%;
+    height: 5vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-bar-divs::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: rgb(224, 194, 194);
+    transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+
+.home:hover::after,
+.projects-nav-bar:hover::after,
+.about-me:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.home:active,
+.projects-nav-bar:active,
+.about-me:active {
+    transform: scale(0.95);
+}

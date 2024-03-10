@@ -1,0 +1,61 @@
+aside {
+    width: 5vw;
+    height: 100vh;
+    float: right;
+    background-color: var(--divs);
+    box-shadow: 0px 0px 15px 3px rgba(255, 0, 0, 0.77);
+    display: grid;
+    padding-top: 5%;
+    grid-template-columns: 5vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    gap: 2.8vw;
+}
+
+aside a {
+    height: fit-content;
+}
+
+aside img {
+    width: 3vw;
+}
+
+/* linkedin, email and github icon */
+.linkedin {
+    float: right;
+    width: 100%;
+}
+
+.linkedin img {
+    filter: invert(19%) sepia(57%) saturate(5298%) hue-rotate(251deg)
+        brightness(85%) contrast(121%);
+}
+
+.twitter {
+    color: rgb(255, 255, 255);
+}
+
+.twitter img {
+    filter: invert(100%) sepia(83%) saturate(0%) hue-rotate(12deg)
+        brightness(111%) contrast(101%);
+}
+
+.email {
+    float: right;
+    width: 3.68vw;
+}
+
+.email img {
+    filter: invert(13%) sepia(50%) saturate(6810%) hue-rotate(352deg)
+        brightness(106%) contrast(95%);
+}
+
+.github {
+    float: right;
+    width: 3.57vw;
+}
+
+.center-icon2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
