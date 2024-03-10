@@ -17,7 +17,7 @@ function Presentation(){
                 {" "}
                 <a href="#about-me-ID">
                    <h4>Scroll down to know more!</h4>
-                   <img src="/src/assets/icons/reply-solid.svg" alt="arrow down" />
+                   <img src="/assets/icons/reply-solid.svg" alt="arrow down" />
                 </a>
             </div>
         </div>

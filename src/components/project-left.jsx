@@ -33,7 +33,7 @@ function ProjectLeft(props){
             <div className="live-demo-left">
                 <a href="">
                     <p>Live Test</p>
-                    <img src="/src/assets/icons/arrow-up-right-from-square-solid.svg" alt="arrow down" />
+                    <img src="/assets/icons/arrow-up-right-from-square-solid.svg" alt="arrow down" />
                 </a>
             </div>
         </div>

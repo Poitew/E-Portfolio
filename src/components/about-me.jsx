@@ -10,34 +10,34 @@ function AboutMe(){
                 <p>Tech Stack</p>
                     <div className="tech-stack-grid">
                         <div className="grid-item1">
-                            <img src="/src/assets/tech/html-5.svg" alt="html5" title="html" />
+                            <img src="/assets/tech/html-5.svg" alt="html5" title="html" />
                         </div>
                         <div className="grid-item2">
-                            <img src="/src/assets/tech/css-3.svg" alt="css3" />
+                            <img src="/assets/tech/css-3.svg" alt="css3" />
                         </div>
                         <div className="grid-item3">
-                            <img src="/src/assets/tech/javascript.svg" alt="js" />
+                            <img src="/assets/tech/javascript.svg" alt="js" />
                         </div>
                         <div className="grid-item4">
-                            <img src="/src/assets/tech/react.svg" alt="React.js" />
+                            <img src="/assets/tech/react.svg" alt="React.js" />
                         </div>
                         <div className="grid-item5">
-                            <img src="/src/assets/tech/vitejs.svg" alt="viteJS" />
+                            <img src="/assets/tech/vitejs.svg" alt="viteJS" />
                         </div>
                         <div className="grid-item6">
-                            <img src="/src/assets/tech/c-plusplus.svg" alt="cpp20" />
+                            <img src="/assets/tech/c-plusplus.svg" alt="cpp20" />
                         </div>
                         <div className="grid-item7">
-                            <img src="/src/assets/tech/bash-icon.svg" alt="Bash" />
+                            <img src="/assets/tech/bash-icon.svg" alt="Bash" />
                         </div>
                         <div className="grid-item8">
-                            <img src="/src/assets/tech/github.svg" alt="github" />
+                            <img src="/assets/tech/github.svg" alt="github" />
                         </div>
                         <div className="grid-item9">
-                            <img src="/src/assets/tech/visual-studio-code.svg" alt="VS code" />
+                            <img src="/assets/tech/visual-studio-code.svg" alt="VS code" />
                         </div>
                         <div className="grid-item10">
-                            <img src="/src/assets/tech/blender.svg" alt="blender" />
+                            <img src="/assets/tech/blender.svg" alt="blender" />
                         </div>
                     </div>
             </div>

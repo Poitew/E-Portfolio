@@ -6,18 +6,18 @@ function AsideFunc(){
         <aside id="homeID">
             <div className="linkedin center-icon2">
                 <a href="">
-                    <img src="/src/assets/icons/linkedin.svg" alt="linkedin" />
+                    <img src="/assets/icons/linkedin.svg" alt="linkedin" />
                 </a>
             </div>
 
             <div className="twitter center-icon2">
                 <a href="">
-                    <img src="/src/assets/icons/x-twitter.svg" alt="twitter" />
+                    <img src="/assets/icons/x-twitter.svg" alt="twitter" />
                 </a>
             </div>
             <div className="email center-icon2">
                 <a href="mailto:">
-                    <img src="/src/assets/icons/envelope-solid.svg" alt="email" />
+                    <img src="/assets/icons/envelope-solid.svg" alt="email" />
                 </a>
             </div>
 
@@ -27,7 +27,7 @@ function AsideFunc(){
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                    <img src="/src/assets/tech/github.svg" alt="github" />
+                    <img src="/assets/tech/github.svg" alt="github" />
                 </a>
             </div>
         </aside>

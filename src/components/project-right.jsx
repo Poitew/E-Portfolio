@@ -25,7 +25,7 @@ function ProjectRight(props){
         <div className="live-demo-right">
           <a href="">
             <p>Live Test</p>
-              <img src="/src/assets/icons/arrow-up-right-from-square-solid.svg" alt="arrow down" />
+              <img src="/assets/icons/arrow-up-right-from-square-solid.svg"  alt="arrow down" />
           </a>
         </div>
         <img

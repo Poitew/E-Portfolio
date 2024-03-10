@@ -17,23 +17,23 @@ function FooterFunc(){
                     rel="noopener noreferrer"
                     target="_blank"
                 >
-                    <img src="/src/assets/tech/github.svg" alt="github" />
+                    <img src="/assets/tech/github.svg" alt="github" />
                 </a>
 
                 <a href="" rel="noopener noreferrer" target="_blank">
-                    <img src="/src/assets/icons/linkedin.svg" alt="linkedin" id="footer-linkedin" />
+                    <img src="/assets/icons/linkedin.svg" alt="linkedin" id="footer-linkedin" />
                 </a>
 
                 <a href="mailto:">
-                    <img src="/src/assets/icons/envelope-solid.svg" alt="email"  id="footer-mail" />
+                    <img src="/assets/icons/envelope-solid.svg" alt="email"  id="footer-mail" />
                 </a>
 
                 <a href="">
-                    <img src="/src/assets/icons/x-twitter.svg" alt="twitter"  id="footer-twitter" />
+                    <img src="/assets/icons/x-twitter.svg" alt="twitter"  id="footer-twitter" />
                 </a>
             </div>
                 <a href="#homeID">
-                    <img src="/src/assets/icons/turn-up-solid.svg" alt="arrow up" id="arrow-up" />
+                    <img src="/assets/icons/turn-up-solid.svg" alt="arrow up" id="arrow-up" />
                 </a>
                 <br />
             <p className="footer-p">Made with love by sickpoitew</p>
