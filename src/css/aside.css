@@ -1,11 +1,11 @@
 aside {
     width: 5vw;
-    height: 100vh;
+    height: 95vh;
     float: right;
     background-color: var(--divs);
     box-shadow: 0px 0px 15px 3px rgba(255, 0, 0, 0.77);
     display: grid;
-    padding-top: 5%;
+    padding-top: 7.5%;
     grid-template-columns: 5vw;
     grid-template-rows: 10vh 10vh 10vh 10vh;
     gap: 2.8vw;

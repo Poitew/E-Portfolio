@@ -124,6 +124,26 @@
         height: 10vh;
     }
 
+    .my-name-header {
+        width: 48vw;
+    }
+
+    .my-name-header p {
+        font-size: 4vw;
+        margin-top: 5%;
+    }
+
+    header img {
+        width: 11vw;
+        margin-top: 1%;
+        float: left;
+    }
+
+    .home, .about-me, .projects-nav-bar {
+        margin-left: 0;
+        margin-right: 6%;
+    }
+
     .nav-bar-divs {
         margin-top: 1.4%;
     }
@@ -158,8 +178,8 @@
     }
 
     .presentation h3 {
-        font-size: 4.5vw;
-        width: 80vw;
+        font-size: 4vw !important;
+        width: 79vw;
         margin-left: 0;
     }
 
@@ -341,9 +361,6 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media only screen and (max-width: 767.98px) {
-    header {
-        height: 10vh;
-    }
 
     .nav-bar-divs {
         margin-top: 1.4%;

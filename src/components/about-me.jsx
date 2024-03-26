@@ -28,36 +28,36 @@ function AboutMe(){
                             <img src="/assets/tech/c-plusplus.svg" alt="cpp20" />
                         </div>
                         <div className="grid-item7">
-                            <img src="/assets/tech/bash-icon.svg" alt="Bash" />
-                        </div>
-                        <div className="grid-item8">
-                            <img src="/assets/tech/github.svg" alt="github" />
-                        </div>
-                        <div className="grid-item9">
-                            <img src="/assets/tech/visual-studio-code.svg" alt="VS code" />
-                        </div>
-                        <div className="grid-item10">
                             <img src="/assets/tech/blender.svg" alt="blender" />
                         </div>
+                        <div className="grid-item8">
+                            <img src="/assets/tech/unrealengine-icon.svg" alt="ue5" />
+                        </div>
+                        <div className="grid-item9">
+                            <img src="/assets/tech/bash-icon.svg" alt="Bash" />
+                        </div>
+                        <div className="grid-item10">
+                            <img src="/assets/tech/github.svg" alt="github" />
+                        </div>
+                        <div className="grid-item11">
+                            <img src="/assets/tech/visual-studio-code.svg" alt="VS code" />
+                        </div>
+                        
                     </div>
             </div>
             <hr className="background-hr" />
             <h5 className="background-section-title">Background</h5>
             <hr className="background-hr" />
             <p className="about-me-story">
-              Hi! My name is "sickpoitew", I am 17 years old self-taught Front-End web
-              developer settled in Italy with 4 years of experience in coding /
-              programming and 1 year in creating web pages using React.js and it's popular
-              tool: Vite. <br />
+              Hi! My name is "sickpoitew", I am 17 years old self-taught software
+              developer and game developer settled in Italy with 4 years of experience in software development
+              and 1 year of experience in creating games in Unreal Engine 5<br />
               <br />
-              I started my journey by creating web pages when I was 13 years old and in 4
-              years I developed skills in other fields that I still like to use to this
-              day. I'm always in search for new opportunities to learn more and more
-              without, obviously, forgetting past skills! that's what I like to do!
+              In my free time, apart from programming, I love reading books and novels, I also like listening to
+              music while playing games.
               <br />
               <br />
-              In my free time I love reading books and novels, I also like listening to
-              music and sometimes I play games.
+              If you have an idea about a game or a software/website just contact me!
             </p>
         </div>
         </>

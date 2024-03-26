@@ -5,24 +5,28 @@ function HeaderFunc(){
     return(
         <header>
             <div id="link-wrapper">
+                <a href="#about-me-ID">
+                    <div className="my-name-header">
+                        <img src="/assets/icons/logo.svg" alt="" />
+                        <p>SICKPOITEW</p>
+                    </div>
+                </a>
                 <a href="#homeID">
                     <div className="home nav-bar-divs">
-                        <p>Home</p>
+                        <p>HOME</p>
                     </div>
                 </a>
                 <a href="#about-me-ID">
                     <div className="about-me nav-bar-divs">
-                        <p>About Me</p>
+                        <p>ABOUT ME</p>
                     </div>
                 </a>
                 <a href="#projectID">
                     <div className="projects-nav-bar nav-bar-divs">
-                        <p>Projects</p>
+                        <p>PROJECTS</p>
                     </div>
                 </a>
-                <a href="#about-me-ID">
-                    <p id="my-name-header">sickpoitew</p>
-                </a>
+                
             </div>
         </header>
     );

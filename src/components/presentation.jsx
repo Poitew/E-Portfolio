@@ -6,12 +6,11 @@ function Presentation(){
         <div className="presentation">
             <h1>
                 {" "}
-                    Hi, I'm <span>sickpoitew</span>: A Front-End <br />
-                <span className="inline-end">React Developer</span>
+                    Hi, I'm <span>sickpoitew</span>: <span>Software</span> and <br />
+                    <span className="inline-end"><span>Game</span> Developer</span>
             </h1> <br/>
             <h3>
-                I love creating frontend web pages and softwares using React.js and
-                Electron.js
+                Software Developer and Game Developer that loves transforming ideas into reality
             </h3>
             <div className="about-me-redirect">
                 {" "}
