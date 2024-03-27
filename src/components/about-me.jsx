@@ -1,5 +1,7 @@
 import React from "react"
+import Skill from "./skill";
 import '/src/css/about-me.css'
+
 
 function AboutMe(){
     return(
@@ -9,40 +11,17 @@ function AboutMe(){
             <div className="tech-stack">
                 <p>Tech Stack</p>
                     <div className="tech-stack-grid">
-                        <div className="grid-item1">
-                            <img src="/assets/tech/html-5.svg" alt="html5" title="html" />
-                        </div>
-                        <div className="grid-item2">
-                            <img src="/assets/tech/css-3.svg" alt="css3" />
-                        </div>
-                        <div className="grid-item3">
-                            <img src="/assets/tech/javascript.svg" alt="js" />
-                        </div>
-                        <div className="grid-item4">
-                            <img src="/assets/tech/react.svg" alt="React.js" />
-                        </div>
-                        <div className="grid-item5">
-                            <img src="/assets/tech/vitejs.svg" alt="viteJS" />
-                        </div>
-                        <div className="grid-item6">
-                            <img src="/assets/tech/c-plusplus.svg" alt="cpp20" />
-                        </div>
-                        <div className="grid-item7">
-                            <img src="/assets/tech/blender.svg" alt="blender" />
-                        </div>
-                        <div className="grid-item8">
-                            <img src="/assets/tech/unrealengine-icon.svg" alt="ue5" />
-                        </div>
-                        <div className="grid-item9">
-                            <img src="/assets/tech/bash-icon.svg" alt="Bash" />
-                        </div>
-                        <div className="grid-item10">
-                            <img src="/assets/tech/github.svg" alt="github" />
-                        </div>
-                        <div className="grid-item11">
-                            <img src="/assets/tech/visual-studio-code.svg" alt="VS code" />
-                        </div>
-                        
+                        <Skill src="/assets/tech/html-5.svg" alt="html5" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/css-3.svg" alt="css3" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/javascript.svg" alt="javascript" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/react.svg" alt="react" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/vitejs.svg" alt="vitejs" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/c-plusplus.svg" alt="c++" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/blender.svg" alt="blender" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/unrealengine-icon.svg" alt="unreal engine 5" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/bash-icon.svg" alt="bash script" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/github.svg" alt="github" className="tech-icon" ></Skill>
+                        <Skill src="/assets/tech/visual-studio-code.svg" alt="vscode" className="tech-icon" ></Skill>
                     </div>
             </div>
             <hr className="background-hr" />

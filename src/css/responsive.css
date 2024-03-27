@@ -125,7 +125,7 @@
     }
 
     .my-name-header {
-        width: 48vw;
+        width: 47vw;
     }
 
     .my-name-header p {
@@ -135,13 +135,13 @@
 
     header img {
         width: 11vw;
-        margin-top: 1%;
+        margin-top: 0.2%;
         float: left;
     }
 
     .home, .about-me, .projects-nav-bar {
         margin-left: 0;
-        margin-right: 6%;
+        margin-right: 7%;
     }
 
     .nav-bar-divs {
@@ -425,7 +425,7 @@
 
     aside {
         width: 10vw;
-        height: 49vh;
+        height: 48vh;
         grid-template-columns: 5vw;
         grid-template-rows: 10vh 10vh 10vh 10vh;
         gap: 2.8vw;
