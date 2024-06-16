@@ -1,0 +1,333 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media only screen and (max-width: 1399.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (max-width: 1199.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991.98px) {
+    header {
+        height: 9vw;
+    }
+
+    header p {
+        font-size: 4vw;
+    }
+
+    .home {
+        margin-left: 5%;
+    }
+
+    .nav-bar-divs {
+        width: 25vw !important;
+    }
+
+    h1 {
+        font-size: 9vw;
+    }
+
+    .presentation li {
+        font-size: 3vw !important;
+    }
+
+    .presentation li img {
+        width: 4vw;
+    }
+
+    #presentation-description {
+        font-size: 4.5vw;
+        width: 100%;
+    }
+
+    .about-me-redirect p, .resume p {
+        font-size: 2vw !important;
+    }
+
+    aside {
+        width: 10vw;
+    }
+
+    aside img {
+        width: 6vw;
+    }
+
+    .about-me-section {
+        flex-direction: column-reverse;
+    }
+
+    .section-header-title {
+        font-size: 10vw;
+    }
+
+    .history {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    .tech-stack-grid img {
+        width: 6vw;
+    }
+
+    .section-header-container {
+        height: 20vh;
+    }
+
+    .projects-section {
+        height: 115vh
+    }
+
+    .project {
+        padding-left: 5vw;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    .project-text span {
+        font-size: 2.5vw;
+    }
+
+    .tech-project {
+        gap: 6vw;
+    }
+
+    .tech-project p {
+        font-size: 2vw;
+    }
+
+    footer {
+        height: 95vh;
+        margin-top: 20%;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767.98px) {
+
+    header {
+        height: 10vh;
+    }
+
+    .home, .about-me, .projects-nav-bar {
+        margin-left: 0;
+        margin-right: 2.5%;
+    }
+
+    aside img {
+        width: 6vw;
+    }
+
+    .presentation {
+        margin-top: 20%;
+    }
+
+    .presentation h1 {
+        font-size: 13vw;
+        margin-top: 5%;
+    }
+
+    .presentation li {
+        font-size: 4vw !important;
+    }
+
+    .presentation li img {
+        width: 4vw;
+    }
+
+    #presentation-description {
+        width: 100%;
+        font-size: 5.25vw !important;
+    }
+
+    .base-button {
+        width: 25vw;
+        height: 5vh;
+        margin-left: 0;
+    }
+
+    .about-me-redirect p, .resume p {
+        font-size: 3.5vw !important;
+    }
+
+    .history {
+        width: 95%;
+        border-left: 0;
+        font-size: 4vw !important;
+    }
+
+    .tech-stack-grid {
+        grid-template-columns: 12vw 12vw 12vw 12vw;
+        grid-template-rows: 6vh 6vh 6vh;
+        margin-top: 0;
+    }
+
+    .tech-stack p {
+        font-size: 5vw;
+        width: 40vw;
+    }
+
+    .projects-section {
+        height: 170vh;
+        grid-template-rows: 8% 92%;
+        font-size: 3vw !important;
+    }
+
+    .projects-container {
+        height: 145vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        gap: 0;
+    }
+
+    .project:nth-child(3) {
+        grid-column: auto;
+    }
+ 
+    .project {
+        padding-top: 3vw;
+        padding-left: 3.5rem;
+    }
+ 
+    .project-text {
+        font-size: 6vw;
+        width: 80vw;
+    }
+ 
+    .project-text span {
+        font-size: 4.5vw;
+    }
+ 
+    .tech-project {
+        width: 30vw;
+        gap: 15vw;
+    }
+
+    .tech-project p {
+        font-size: 4vw !important;
+    }
+
+    .project:nth-child(1), .project:nth-child(2) {
+        grid-column: auto;
+    }
+
+    .project:nth-child(1) .project-text, .project:nth-child(2) .project-text {
+        width: 90%;
+    }
+ 
+    .test {
+        margin-top: 7%;
+        margin-right: 5%;
+    }
+ 
+    .test img {
+        width: 8vw;
+    }
+
+    footer {
+        height: 90vh;
+        align-items: center;
+    }
+
+    .base-input, textarea, #submit-input {
+        font-size: 16px;
+        width: 60vw;
+    }
+
+    footer img {
+        width: 7vw !important;
+    }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+    p {
+        margin: 0;
+        font-size: calc(0.1rem + 3vw);
+    }
+
+    header {
+        height: 6vh;
+    }
+
+    .nav-bar-divs {
+        width: fit-content;
+        margin-left: 5%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .presentation {
+        width: fit-content;
+        height: 100vh;
+    }
+
+    .about-me-section {
+        margin-bottom: 30%;
+    }
+
+    .section-header-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-header-hr {
+        width: 100%;
+    }
+    
+    .section-header-title {
+        font-size: 10vw;
+    }
+
+    .skill img {
+        width: 7vw;
+    }
+
+    .projects-section .section-header-container {
+        width: 100%;
+        font-size: 8vw;
+        padding: 0;
+    }
+    
+    .projects-section .section-header-hr {
+        width: 100%;
+    }
+
+    .projects-container {
+        height: 100%;
+    }
+
+    footer {
+        height: 105vh;
+        margin-top: 10%;
+    }
+
+    .footer-sitemap {
+        width: 100%;
+    }
+}
+
+/* XX-Small Devices */
+@media only screen and (max-width: 361.98px) {
+    header {
+        height: 7.5vh;
+    }
+
+    .presentation h1 {
+        height: 20vh;
+    }
+
+    .first-background {
+        height: 60vh;
+    }
+
+}

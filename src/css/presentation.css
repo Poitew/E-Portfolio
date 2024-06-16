@@ -1,0 +1,103 @@
+.presentation {
+    float: left;
+    width: 75vw;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.presentation h1 {
+    word-spacing: 1vw;
+    height: fit-content;
+    padding-bottom: 1vh;
+    margin: 0;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -.05em;
+}
+
+.h1-span {
+    color: #0ea5e9;
+}
+
+.presentation ul {
+    width: fit-content;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0 3vw;
+    margin-top: 0;
+    padding: 0;
+}
+
+.presentation ul li {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.presentation img {
+    width: 2vw;
+    margin-right: 10%;
+}
+
+#presentation-description {
+    font-size: 1.4vw;
+    width: 80%;
+    color: rgb(148 163 184);
+}
+
+.span-block {
+    display: block;
+    padding-top: 2rem;
+}
+
+.base-button {
+    width: 13vw;
+    height: 7vh;
+    border: 2px solid #595265;
+    border-radius: 0.5vw / 0.5vw;
+    background-color: #2a2039;
+    float: left;
+    transition: background-color 1s ease-in-out;
+    margin-top: 5%;
+}
+
+.base-button:hover {
+    background-color: #3f2e59;
+}
+
+.about-me-redirect {
+    margin-left: 40%;
+    margin-right: 4%;
+    box-shadow: 0px 0px 66px 2px rgba(45,255,196,0.47);
+    transition: box-shadow 1s ease-in-out;
+}
+
+.about-me-redirect:hover {
+    box-shadow: 0px 0px 66px 2px rgba(45,255,196,1);
+}
+
+.resume {
+    background: none;
+}
+
+.about-me-redirect p {
+    font-size: calc(0.2rem + 1vw);
+    font-weight: 600;
+    color: rgb(17, 169, 0);
+}
+
+.glow {
+    width: 25vw; 
+    height: 25vw;
+    margin-left: 65%;
+    margin-top: -10%;
+    border-radius: 50%;
+    background-color: rgba(26, 118, 97, 0.5); 
+    box-shadow: 0 0 50px rgba(26, 118, 97, 0.5),
+                inset 0 0 50px rgba(26, 118, 97, 0.5); 
+    filter: blur(60px);
+    position: absolute;
+    z-index: -1;
+}

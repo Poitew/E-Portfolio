@@ -1,0 +1,30 @@
+aside {
+    width: 5vw;
+    height: var(--aside-height);
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: var(--divs);
+    box-shadow: 0 0 15px 3px #ff0000c4;
+}
+
+aside a {
+    height: fit-content;
+}
+
+aside img {
+    width: 3vw;
+    filter: brightness(80%);
+}
+
+/* linkedin, email and github icon */
+.twitter {
+    color: rgb(255, 255, 255);
+}
+
+.center-icon2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
