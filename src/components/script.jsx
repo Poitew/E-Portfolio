@@ -6,53 +6,34 @@ function Script(){
         const homeP = document.querySelector(".home");
         const aboutMeP = document.querySelector(".about-me");
         const projectsP = document.querySelector(".projects-nav-bar");
-        const green = "#018f3f";
-        const headerImage = document.querySelector(".my-name-header");
+        const headerImage = document.querySelector(".logo-header");
+        const color = "#0ea5e9";
 
         if(window.innerWidth < 992){
             headerImage.style.display = "none";
         }
         
-        homeP.style.color = "white";
-        aboutMeP.style.color = green;
-        projectsP.style.color = green;
-            
-        window.addEventListener("scroll", () => {
-            const websitePosition = window.scrollY;
+        homeP.style.color = color;
+        aboutMeP.style.color = "white";
+        projectsP.style.color = "white";
         
-            if(websitePosition <= 650){
-                homeP.style.color = "white";
-                aboutMeP.style.color = green;
-                projectsP.style.color = green;
-            }
-            else if(websitePosition >= 650 && websitePosition <= 1300){
-                homeP.style.color = green;
-                aboutMeP.style.color = "white";
-                projectsP.style.color = green;
-            }
-            else {
-                homeP.style.color = green;
-                aboutMeP.style.color = green;
-                projectsP.style.color = "white";
-            }
-        })
         window.addEventListener("scroll", () => {
             const websitePosition = window.scrollY;
         
             if(websitePosition <= 350){
-                homeP.style.color = "white";
-                aboutMeP.style.color = green;
-                projectsP.style.color = green;
-            }
-            else if(websitePosition <= 1100){
-                homeP.style.color = green;
+                homeP.style.color = color;
                 aboutMeP.style.color = "white";
-                projectsP.style.color = green;
+                projectsP.style.color = "white";
+            }
+            else if(websitePosition <= 1200){
+                homeP.style.color = "white";
+                aboutMeP.style.color = color;
+                projectsP.style.color = "white";
             }
             else {
-                homeP.style.color = green;
-                aboutMeP.style.color = green;
-                projectsP.style.color = "white";
+                homeP.style.color = "white";
+                aboutMeP.style.color = "white";
+                projectsP.style.color = color;
             }
         })
     })

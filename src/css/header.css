@@ -8,34 +8,27 @@ header {
     font-size: 1.25vw !important;
     font-weight: 700;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.my-name-header {
-    float: left;
+.logo-header {
     width: 20vw;
     margin-left: 5%;
-    color: #00995e;
+    color: #0ea5e9;
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
 }
 
-header img {
+.logo-header img {
     width: 4vw;
-    float: left;
     margin-top: -3.5%;
 }
 
-.my-name-header p {
-    font-size: 2vw;
-    margin-left: 5%;
-    margin-top: 1%;
-    float: left;
-}
-
-#link-wrapper {
-    height: 100%;
-}
-
-#link-wrapper div{
-    margin-top: 1%;
+.logo-header p {
+    font-size: inherit;
 }
 
 .home {
@@ -54,9 +47,8 @@ header img {
 }
 
 .nav-bar-divs {
-    width: 10%;
+    width: 10vw;
     height: 5vh;
-    float: left;
     display: flex;
     justify-content: center;
     align-items: center;

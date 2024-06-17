@@ -70,9 +70,8 @@
 }
 
 .test {
-    width: 20vw;
-    height: 4vh;
-    margin-top: 7.5%;
+    width: 10vw;
+    height: fit-content;
     float: right;
 }
 

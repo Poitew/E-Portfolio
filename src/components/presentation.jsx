@@ -4,7 +4,11 @@ import '/src/css/presentation.css'
 function Presentation(){
     return(
         <div className="presentation">
-            <h1>I'm <span className="h1-span" >SickPoitew</span>, an <br/> Aspiring DevOps Engineer.</h1> 
+            <h1>
+                I'm <span className="h1-span" >SickPoitew</span>, 
+                {(window.innerWidth < 992) ? <br/> : " "} 
+                an {(window.innerWidth > 992) ? <br/> : " "} Aspiring DevOps Engineer.
+            </h1> 
             <div className="glow"></div> <br/>
             <ul>
                 <li><img src="/assets/tech/react.svg" alt="React.JS" /> React.JS</li>

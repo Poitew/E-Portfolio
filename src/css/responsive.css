@@ -113,8 +113,8 @@
     }
 
     .home, .about-me, .projects-nav-bar {
+        width: 27vw !important;
         margin-left: 0;
-        margin-right: 2.5%;
     }
 
     aside img {
@@ -126,7 +126,7 @@
     }
 
     .presentation h1 {
-        font-size: 13vw;
+        font-size: 10vw;
         margin-top: 5%;
     }
 
@@ -140,7 +140,7 @@
 
     #presentation-description {
         width: 100%;
-        font-size: 5.25vw !important;
+        font-size: 4vw !important;
     }
 
     .base-button {
@@ -251,12 +251,8 @@
     }
 
     header {
-        height: 6vh;
-    }
-
-    .nav-bar-divs {
-        width: fit-content;
-        margin-left: 5%;
+        height: 8vh;
+        justify-content: space-evenly;
     }
 
     aside {
@@ -264,8 +260,13 @@
     }
 
     .presentation {
-        width: fit-content;
-        height: 100vh;
+        width: 85vw;
+        height: 80vh;
+        margin-left: 3%;
+    }
+
+    .first-background {
+        height: 80vh;
     }
 
     .about-me-section {
@@ -292,6 +293,10 @@
         width: 7vw;
     }
 
+    .skill:nth-child(5) img {
+        width: 10vw;
+    }
+
     .projects-section .section-header-container {
         width: 100%;
         font-size: 8vw;
@@ -304,6 +309,10 @@
 
     .projects-container {
         height: 100%;
+    }
+
+    .project:nth-child(1){
+        box-shadow: none;
     }
 
     footer {
