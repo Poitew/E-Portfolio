@@ -8,7 +8,7 @@ function ProjectSection(){
     return(
         <div className="projects-section" id="projectID" >
             <SectionHeader
-                title="What I've Built"
+                title="Built projects"
             >
             </SectionHeader>
             <div className="projects-container">
@@ -23,7 +23,6 @@ function ProjectSection(){
                     tech3="PHP"
                     tech4="MySQL"
                     github="https://github.com/Poitew/CineCritics"
-                    website="https://sickpoitew.netlify.app"
                 ></Project>
                 <Project
                     src="/assets/projects-img/leaf.jpg"
@@ -34,7 +33,6 @@ function ProjectSection(){
                     tech2="React.JS"
                     tech3="API"
                     github="https://github.com/Poitew/ClimateTracker"
-                    website="https://sickpoitew.netlify.app"
                 >
                 </Project>
                 <Project
@@ -45,7 +43,6 @@ function ProjectSection(){
                     tech1="CSS"
                     tech2="React.JS"
                     github="https://github.com/Poitew/E-Portfolio"
-                    website="https://sickpoitew.netlify.app"
                 >
                 </Project>
                 <Project
@@ -55,7 +52,6 @@ function ProjectSection(){
                     tech1="CSS"
                     tech2="React.JS"
                     github="https://github.com/Poitew/BookRealm"
-                    website="https://sickpoitew.netlify.app"
                 >
                 </Project>
             </div>

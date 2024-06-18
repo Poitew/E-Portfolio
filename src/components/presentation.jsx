@@ -14,6 +14,7 @@ function Presentation(){
                 <li><img src="/assets/tech/react.svg" alt="React.JS" /> React.JS</li>
                 <li><img src="/assets/tech/vue.svg" alt="Vue.JS" /> Vue.JS</li>
                 <li><img src="/assets/tech/php.svg" alt="PHP" /> PHP</li>
+                <li><img src="/assets/tech/mysql-icon.svg" alt="MySQL" /> MySQL</li>
                 <li><img src="/assets/tech/bash-icon.svg" alt="Bash" /> Bash</li>
             </ul>
             <p id="presentation-description" >

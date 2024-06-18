@@ -13,6 +13,10 @@
         height: 9vw;
     }
 
+    .logo-header{
+        display: none;
+    }
+
     header p {
         font-size: 4vw;
     }
@@ -110,6 +114,7 @@
 
     header {
         height: 10vh;
+        background-color: rgb(12, 7, 24);
     }
 
     .home, .about-me, .projects-nav-bar {
@@ -260,13 +265,13 @@
     }
 
     .presentation {
-        width: 85vw;
-        height: 80vh;
+        width: 90vw;
+        height: 100vh;
         margin-left: 3%;
     }
 
     .first-background {
-        height: 80vh;
+        height: 100vh;
     }
 
     .about-me-section {
@@ -313,6 +318,10 @@
 
     .project:nth-child(1){
         box-shadow: none;
+    }
+
+    .project-text {
+        height: 27vh;
     }
 
     footer {

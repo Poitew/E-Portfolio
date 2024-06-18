@@ -16,9 +16,6 @@ return(
             <p>{props.tech4}</p>
         </div>
         <div className="test">
-            <a href={props.website}>
-                <img src="/assets/icons/globe-solid.svg" alt="visit webiste" id="globe" />
-            </a>
             <a href={props.github}>
                 <img src="/assets/tech/github.svg" alt="github repo" />
             </a>

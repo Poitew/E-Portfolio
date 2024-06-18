@@ -3,15 +3,15 @@ import React, { useEffect } from "react"
 function Script(){
     useEffect(() => {
 
+        const header = document.getElementsByTagName("header");
+        
+        const header_image = document.querySelector("#js-logo-img");
+
         const homeP = document.querySelector(".home");
         const aboutMeP = document.querySelector(".about-me");
         const projectsP = document.querySelector(".projects-nav-bar");
-        const headerImage = document.querySelector(".logo-header");
-        const color = "#0ea5e9";
 
-        if(window.innerWidth < 992){
-            headerImage.style.display = "none";
-        }
+        const color = "#0ea5e9";
         
         homeP.style.color = color;
         aboutMeP.style.color = "white";
@@ -19,7 +19,17 @@ function Script(){
         
         window.addEventListener("scroll", () => {
             const websitePosition = window.scrollY;
-        
+            
+            if(window.innerWidth > 767){
+                if (websitePosition >= 50) {
+                    header[0].style.background = "rgba(12, 7, 24, 1)";
+                    header_image.style.width = "4vw";
+                } else {
+                    header[0].style.background = "rgba(12, 7, 24, 0)";      
+                    header_image.style.width = "12vw";
+                }
+            }   
+
             if(websitePosition <= 350){
                 homeP.style.color = color;
                 aboutMeP.style.color = "white";
@@ -36,7 +46,10 @@ function Script(){
                 projectsP.style.color = color;
             }
         })
-    })
+
+    }, [])
+
+    return null;
 }
 
 export default Script;

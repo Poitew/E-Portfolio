@@ -6,7 +6,7 @@ function HeaderFunc(){
         <header>
             <a href="#about-me-ID">
                 <div className="logo-header">
-                    <img src="/assets/icons/logo.png" alt="Code Logo" />
+                    <img src="/assets/icons/logo.png" alt="Code Logo" id="js-logo-img" />
                     <p>SICKPOITEW</p>
                 </div>
             </a>

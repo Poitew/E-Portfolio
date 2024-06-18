@@ -6,7 +6,6 @@ aside {
     justify-content: space-evenly;
     flex-direction: column;
     background-color: var(--divs);
-    box-shadow: 0 0 15px 3px #ff0000c4;
 }
 
 aside a {
