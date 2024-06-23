@@ -14,6 +14,7 @@ return(
             <p>{props.tech2}</p>
             <p>{props.tech3}</p>
             <p>{props.tech4}</p>
+            <p>{props.tech5}</p>
         </div>
         <div className="test">
             <a href={props.github}>

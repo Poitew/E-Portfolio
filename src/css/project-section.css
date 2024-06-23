@@ -59,12 +59,9 @@
 .tech-project {
     position: relative;
     width: 18vw;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: grid;
-    grid-template-columns: 2vw 2vw 2vw 2vw;
-    gap: 4vw;
-    justify-items: center;
+    margin: 5% 0;
+    display: flex;
+    gap: 2vw;
     float: left;
 }
 
