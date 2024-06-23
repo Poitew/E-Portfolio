@@ -177,7 +177,6 @@
 
     .projects-section {
         height: 170vh;
-        grid-template-rows: 8% 92%;
         font-size: 3vw !important;
     }
 
@@ -207,8 +206,8 @@
     }
  
     .tech-project {
-        width: 30vw;
         gap: 2vw;
+        margin-top: 5%;
     }
 
     .tech-project p {
@@ -220,7 +219,7 @@
     }
 
     .project:nth-child(1) .project-text, .project:nth-child(2) .project-text {
-        width: 90%;
+        width: 95%;
     }
  
     .test {
