@@ -71,7 +71,7 @@
         font-size: 3vw;
     }
 
-    .tech-stack-grid img {
+    .skill-grid img {
         width: 6vw;
     }
 
@@ -162,17 +162,6 @@
         width: 95%;
         border-left: 0;
         font-size: 4vw !important;
-    }
-
-    .tech-stack-grid {
-        grid-template-columns: 12vw 12vw 12vw 12vw;
-        grid-template-rows: 6vh 6vh 6vh;
-        margin-top: 0;
-    }
-
-    .tech-stack p {
-        font-size: 5vw;
-        width: 40vw;
     }
 
     .projects-section {
@@ -293,12 +282,16 @@
         font-size: 10vw;
     }
 
-    .skill img {
-        width: 7vw;
+    .skill-grid p {
+        font-size: 7vw;
     }
 
-    .skill:nth-child(5) img {
-        width: 10vw;
+    .row {
+        gap: 5vw 5vw;
+    }
+
+    .row img {
+        width: 8vw;
     }
 
     .projects-section .section-header-container {

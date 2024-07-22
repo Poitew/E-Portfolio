@@ -1,0 +1,70 @@
+{
+    "SoftwareDev":[
+        {
+            "src":"/assets/tech/html-5-svgrepo-com.svg",
+            "alt":"html"
+        },
+
+        {
+            "src":"/assets/tech/css-3-svgrepo-com.svg",
+            "alt":"css"
+        },
+
+        {
+            "src":"/assets/tech/javascript.svg",
+            "alt":"javascript"
+        },
+
+        {
+            "src":"/assets/tech/react.svg",
+            "alt":"react.js"
+        },
+
+        {
+            "src":"/assets/tech/react-native-1.svg",
+            "alt":"react native"
+        },
+
+        {
+            "src":"/assets/tech/vue.svg",
+            "alt":"vue.js"
+        },
+
+        {
+            "src":"/assets/tech/vitejs.svg",
+            "alt":"vite.js"
+        },
+
+        {
+            "src":"/assets/tech/php.svg",
+            "alt":"php"
+        },
+
+        {
+            "src":"/assets/tech/mysql-icon.svg",
+            "alt":"mysql"
+        },
+
+        {
+            "src":"/assets/tech/c-plusplus.svg",
+            "alt":"c++"
+        },
+
+        {
+            "src":"/assets/tech/github.svg",
+            "alt":"github"
+        }
+    ],
+
+    "DevOps":[
+        {
+            "src":"/assets/tech/bash-icon.svg",
+            "alt":"bash"
+        },
+
+        {
+            "src":"/assets/tech/docker-icon.svg",
+            "alt":"Docker"
+        }
+    ]
+}

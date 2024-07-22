@@ -16,39 +16,31 @@
     padding: 0 0 0 3vw;
 }
 
-.tech-stack {
-    margin: 0 0 0 5%;
+.skill-grid {
+    margin: 10% 0 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
 }
 
-.tech-stack p {
-    width: 20vw;
-    margin: 12.5% 22% 15% 0;
-    font-size: 3.5vw;
+.skill-grid p {
+    font-size: 2.5vw;
 }
 
-.tech-stack-grid {
-    width: 100%;
-    height: auto;
+.row {
+    margin-top: 5%;
     display: grid;
-    grid-template-columns: 7vw 7vw 7vw 7vw;
-    grid-template-rows: auto auto auto;
-    gap: 3vw 4vw;
+    grid-template-columns: 8vw 8vw 8vw 8vw;
+    gap: 2vw 2vw;
 }
 
-.skill {
-    margin: auto;
-}
-
-.skill img {
-    transition: transform 0.3s ease-in-out;
+.row img {
     width: 3.5vw;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
-.skill:nth-child(5) img {
-    width: 5vw;
-}
-
-.tech-stack-grid img:hover {
+.row img:hover {
     transform: scale(1.3);
 }
 

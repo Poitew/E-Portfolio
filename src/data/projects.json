@@ -1,0 +1,43 @@
+[
+    {
+        "name":"CineCritics",
+        "description":"Full stack CRUD project made with JS, PHP and SQL. CineCritics is an interactive website made for movie's lover where you can search, find and review you favourites movies, and if you change your mind you can always delete or modify your review.",
+        "tech1":"CSS",
+        "tech2":"JavaScript",
+        "tech3":"PHP",
+        "tech4":"MySQL",
+        "github":"https://github.com/Poitew/CineCritics",
+        "src":"/assets/projects-img/cinema.jpg"
+    },
+
+    {
+        "name":"Book Realm",
+        "description":"Full stack project that uses Vue.JS as a frontend framework and PHP + MariaDB for the backend. Book Realm is a website where you can search the name of a book and get back all informations about it and a preview of the book.",
+        "tech1":"CSS",
+        "tech2":"Vue.JS",
+        "tech3":"PHP",
+        "tech4":"MariaDB",
+        "tech5":"API",
+        "github":"https://github.com/Poitew/Book-Realm",
+        "src":"/assets/projects-img/abstract-paint.jpg"
+    },
+
+    {
+        "name":"E-Portfolio",
+        "description":"A personal e-portfolio built with modern web technologies to showcase my skills and projects and share my resume. It provides a clean and responsive layout to ensure a perfect experience on any device you're using.",
+        "tech1":"CSS",
+        "tech2":"React.JS",
+        "github":"https://github.com/Poitew/E-Portfolio",
+        "src":"/assets/projects-img/shooting-stars.jpg"
+    },
+
+    {
+        "name":"ClimateTracker",
+        "description":"ClimateTracker is a weather forecasting project made with React.js. ClimateTracker uses the OpenWeather API to allow users to search for any city and get its current weather conditions.",
+        "tech1":"CSS",
+        "tech2":"React.JS",
+        "tech3":"API",
+        "github":"https://github.com/Poitew/ClimateTracker",
+        "src":"/assets/projects-img/leaf.jpg"
+    }
+]

@@ -20,7 +20,7 @@ function HeaderFunc(){
                     <p>ABOUT ME</p>
                 </div>
             </a>
-            <a href="#projectID">
+            <a href="#projects-ID">
                 <div className="projects-nav-bar nav-bar-divs">
                     <p>PROJECTS</p>
                 </div>

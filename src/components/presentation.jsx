@@ -6,8 +6,7 @@ function Presentation(){
         <div className="presentation">
             <h1>
                 I'm <span className="h1-span" >SickPoitew</span>, 
-                {(window.innerWidth < 992) ? <br/> : " "} 
-                an {(window.innerWidth > 992) ? <br/> : " "} Aspiring DevOps Engineer.
+                Software Developer and DevOps Engineer.
             </h1> 
             <div className="glow"></div> <br/>
             <ul>
@@ -18,11 +17,11 @@ function Presentation(){
                 <li><img src="/assets/tech/bash-icon.svg" alt="Bash" /> Bash</li>
             </ul>
             <p id="presentation-description" >
-                I love developing modern software that delivers a stunning user experience through a clean and responsive
-                GUI while also ensuring high performance. <br/>
+            I write clean code and automation scripts for optimizing the software development lifecycle; from planning, to
+            testing and finally to monitoring, to ensure fast and high quality applications. <br/>
                 <span className="span-block" >
-                    I enjoy learning new languages and frameworks to create innovative software, I also enjoy reading as it
-                    expand my knowledge and creativity.
+                    I enjoy learning new technologies and solidify the one I already know to further expand my skills,
+                    I also enjoy reading as it develop my knowledge and creativity.
                 </span>
             </p>
             <a href="#about-me-ID">
@@ -30,9 +29,9 @@ function Presentation(){
                    <p>Know More!</p>
                 </div>
             </a>
-            <a href="" download={true} >
+            <a href="#projects-ID">
                 <div className="resume center-content base-button">
-                    <p>Resume</p>
+                    <p>Projects</p>
                 </div>
             </a>
         </div>

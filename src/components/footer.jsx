@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Icon from "./footer-icon";
 import '/src/css/footer.css';
 
 function Footer() {
@@ -28,7 +27,7 @@ function Footer() {
                 <ul>
                     <li><a href="#homeID">Home</a></li>
                     <li><a href="#about-me-ID">About Me</a></li>
-                    <li><a href="#projectID">Projects</a></li>
+                    <li><a href="#projects-ID">Projects</a></li>
                 </ul>
 
                 <div className="footer-icons">
@@ -54,6 +53,20 @@ function Footer() {
                 <p>Made with love by sickpoitew</p>
             </div>
         </footer>
+    );
+}
+
+function Icon(props){
+    return (
+        <a 
+            href={props.href}
+            rel="noopener noreferrer"
+            target="_blank"
+        >  
+            <div className="footer-icon">
+                <img src={props.src} alt={props.alt} />
+            </div>
+        </a>
     );
 }
 

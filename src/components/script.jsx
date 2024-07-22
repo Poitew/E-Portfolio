@@ -20,6 +20,7 @@ function Script(){
         window.addEventListener("scroll", () => {
             const websitePosition = window.scrollY;
             
+            // Changes the logo size
             if(window.innerWidth > 767){
                 if (websitePosition >= 50) {
                     header[0].style.background = "rgba(12, 7, 24, 1)";
@@ -30,6 +31,7 @@ function Script(){
                 }
             }   
 
+            // Changes the header links color depending in which section of the page you are
             if(websitePosition <= 350){
                 homeP.style.color = color;
                 aboutMeP.style.color = "white";
