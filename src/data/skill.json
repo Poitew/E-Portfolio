@@ -48,11 +48,6 @@
         {
             "src":"/assets/tech/c-plusplus.svg",
             "alt":"c++"
-        },
-
-        {
-            "src":"/assets/tech/github.svg",
-            "alt":"github"
         }
     ],
 
@@ -63,8 +58,24 @@
         },
 
         {
+            "src":"/assets/tech/python.svg",
+            "alt":"Docker"
+        },
+
+        {
+            "src":"/assets/tech/git-icon.svg",
+            "alt":"Docker"
+        },
+
+        {
             "src":"/assets/tech/docker-icon.svg",
             "alt":"Docker"
+        },
+
+        {
+            "src":"/assets/tech/jenkins.svg",
+            "alt":"Docker"
         }
+
     ]
 }

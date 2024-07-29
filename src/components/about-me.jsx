@@ -52,8 +52,8 @@ function AboutMe(){
                     <br />
                     As a Software Developer I have strong experience in various languages such as HTML, CSS, JavaScript,
                     React.JS / React Native, Vue.Js, PHP, MySQL and outside of web development: C++.
-                    While as a DevOps I have experience in using the Linux operating system and Bash for automating tasks, I'm also
-                    proficient in using tools such as Docker.
+                    While as a DevOps I have experience in using the Linux operating system and Bash/Python for automating tasks, I'm also
+                    proficient in using tools such as Docker and Jenkins.
                     <br/>
                     <br />
                     In my free time, I love discovering new technologies, reading books and listening to music. <br/>
