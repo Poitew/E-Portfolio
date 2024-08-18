@@ -75,14 +75,6 @@
         width: 6vw;
     }
 
-    .section-header-container {
-        height: 20vh;
-    }
-
-    .projects-section {
-        height: 115vh
-    }
-
     .project {
         padding-left: 5vw;
     }
@@ -106,6 +98,59 @@
     footer {
         height: 95vh;
         margin-top: 20%;
+    }
+}
+
+/* Tablets - not Ipad Pro */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    header {
+        justify-content: flex-start;
+    }
+
+    aside {
+        width: auto;
+    }
+
+    #presentation-description {
+        font-size: 3.5vw;
+    }
+
+    .about-me-redirect {
+        margin-left: 35%;
+    }
+
+    .base-button {
+        width: 20vw;
+    }
+
+    .base-button p {
+        font-size: 3vw !important;
+    }
+
+    .history {
+        width: 95%;
+    }
+
+    .skill-grid p {
+        font-size: 5vw;
+    }
+
+    .project-text {
+        width: 90%;
+        font-size: 5vw;
+    }
+
+    .test img {
+        width: 5.5vw;
+    }
+    
+    footer {
+        font-size: 2.5vw;
+    }
+
+    .footer-thanks {
+        font-size: 2.5vw;
     }
 }
 
@@ -182,7 +227,6 @@
  
     .project {
         padding-top: 3vw;
-        padding-left: 3.5rem;
     }
  
     .project-text {

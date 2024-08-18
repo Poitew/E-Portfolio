@@ -50,7 +50,7 @@ function Footer() {
                     ></Icon>
                 </div>
 
-                <p>Made with love by sickpoitew</p>
+                <p className="footer-thanks" >Made with love by sickpoitew</p>
             </div>
         </footer>
     );
