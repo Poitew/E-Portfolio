@@ -1,8 +1,6 @@
 import React from "react"
-import SectionHeader from "./section-header"
 import skills from "/src/data/skill.json"
 import '/src/css/about-me.css'
-import '/src/css/section-header.css'
 
 function AboutMe(){
 
@@ -11,8 +9,8 @@ function AboutMe(){
 
     return(
         <div className="about-me-section" id="about-me-ID" >
+
             <div className="skill-grid">
-                
                 <div className="soft-dev-skill">
                     <p>Software Development</p>
                     <div className="row">
@@ -39,9 +37,10 @@ function AboutMe(){
                     </div>
                 </div>
             </div>
+
             <div className="history-container">
                 <SectionHeader
-                    title="About Me"
+                    title="About Me & Projects"
                 >
                 </SectionHeader>
                 <p className="history">
@@ -53,13 +52,22 @@ function AboutMe(){
                     As a Software Developer I have strong experience in various languages such as HTML, CSS, JavaScript,
                     React.JS / React Native, Vue.Js, PHP, MySQL and outside of web development: C++.
                     While as a DevOps I have experience in using the Linux operating system and Bash/Python for automating tasks, I'm also
-                    proficient in using tools such as Docker and Jenkins.
+                    proficient in using tools such as Docker for deployment and Jenkins for CI/CD.
                     <br/>
                     <br />
                     In my free time, I love discovering new technologies, reading books and listening to music. <br/>
                     Want to hire me? Contact me!
                 </p>
             </div>         
+        </div>
+    );
+}
+
+function SectionHeader(props){
+    return(
+        <div className="section-header-container">
+            <hr className="section-header-hr" />
+            <h3 className="section-header-title">{props.title}</h3>
         </div>
     );
 }

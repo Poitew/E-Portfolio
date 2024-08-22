@@ -1,8 +1,6 @@
 import React from "react"
-import SectionHeader from "./section-header"
 import projects from "/src/data/projects.json"
 import '/src/css/project-section.css'
-import '/src/css/section-header.css'
 
 function ProjectSection(){
 
@@ -10,27 +8,22 @@ function ProjectSection(){
 
     return(
         <div className="projects-section" id="projects-ID" >
-
-            <SectionHeader
-                title="Built projects"
-            >
-            </SectionHeader>
-
             <div className="projects-container">
-
-            {projects_info.map((element, index) => (
-                <Project
-                    key={index}
-                    name={element.name}
-                    desc={element.description}
-                    src={element.src}
-                    tech1={element.tech1}
-                    tech2={element.tech2}
-                    tech3={element.tech3}
-                    tech4={element.tech4}
-                    github={element.github}
-                />
-            ))}
+                {projects_info.map((element, index) => (
+                    <Project
+                        key={index}
+                        name={element.name}
+                        desc={element.description}
+                        src={element.src}
+                        tech1={element.tech1}
+                        tech2={element.tech2}
+                        tech3={element.tech3}
+                        tech4={element.tech4}
+                        tech5={element.tech5}
+                        tech6={element.tech6}
+                        github={element.github}
+                    />
+                ))}
             </div>
         </div>
     );
@@ -45,13 +38,14 @@ function Project(props){
                 {props.desc}
                 </span>
             </p>
-            <div className="tech-project">
-                <p>{props.tech1}</p>
-                <p>{props.tech2}</p>
-                <p>{props.tech3}</p>
-                <p>{props.tech4}</p>
-                <p>{props.tech5}</p>
-            </div>
+            <ul className="tech-project">
+                <li>{props.tech1}</li>
+                <li>{props.tech2}</li>
+                <li>{props.tech3}</li>
+                <li>{props.tech4}</li>
+                <li>{props.tech5}</li>
+                <li>{props.tech6}</li>
+            </ul>
             <div className="test">
                 <a href={props.github}>
                     <img src="/assets/tech/github.svg" alt="github repo" />

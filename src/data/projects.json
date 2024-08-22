@@ -1,32 +1,45 @@
 [
     {
         "name":"CineCritics",
-        "description":"Full stack CRUD project made with JS, PHP and SQL. CineCritics is an interactive website made for movie's lover where you can search, find and review you favourites movies, and if you change your mind you can always delete or modify your review.",
-        "tech1":"CSS",
-        "tech2":"JavaScript",
-        "tech3":"PHP",
-        "tech4":"MySQL",
+        "description":"Full stack CRUD project made with JS, PHP and SQL. CineCritics is an interactive website made for movie's lover where you can search, find and review you favourites movies from a database, and if you change your mind you can always delete or modify your review.",
+        "tech1":"HTML",
+        "tech2":"CSS",
+        "tech3":"JavaScript",
+        "tech4":"PHP",
+        "tech5":"MySQL",
         "github":"https://github.com/Poitew/CineCritics",
         "src":"/assets/projects-img/cinema.jpg"
     },
 
     {
         "name":"Book Realm",
-        "description":"Full stack project that uses Vue.JS as a frontend framework and PHP + MariaDB for the backend. Book Realm is a website where you can search the name of a book and get back all informations about it and a preview of the book.",
-        "tech1":"CSS",
-        "tech2":"Vue.JS",
-        "tech3":"PHP",
-        "tech4":"MariaDB",
-        "tech5":"API",
+        "description":"Full stack project that uses Vue.JS as the frontend framework and PHP with MariaDB for the backend. Book Realm helps you find your next read by suggesting a random book and giving you all the information need and a preview of the book. It is also provided with a search functionality that gives all the informations needed about the searched book.",
+        "tech1":"HTML",
+        "tech2":"CSS",
+        "tech3":"Vue.JS",
+        "tech4":"PHP",
+        "tech5":"MariaDB",
+        "tech6":"API",
         "github":"https://github.com/Poitew/Book-Realm",
         "src":"/assets/projects-img/abstract-paint.jpg"
     },
 
     {
+        "name":"To-Do-Son",
+        "description":"To-Do app written in Python that transcribes all your tasks in JSON format. Uses the json library for an easier and cleaner code, and the art library to customize the terminal. Uses Jenkins with Groovy as the CI/CD tool to automate building, testing, and Docker Image building. Include a script to automatically run the image.",
+        "tech1":"Python",
+        "tech2":"Jenkins - Groovy",
+        "tech3":"Docker",
+        "github":"https://github.com/Poitew/To-Do-Son",
+        "src":"/assets/projects-img/space.jpg"
+    },
+
+    {
         "name":"E-Portfolio",
         "description":"A personal e-portfolio built with modern web technologies to showcase my skills and projects and share my resume. It provides a clean and responsive layout to ensure a perfect experience on any device you're using.",
-        "tech1":"CSS",
-        "tech2":"React.JS",
+        "tech1":"JSX",
+        "tech2":"CSS",
+        "tech3":"React.JS",
         "github":"https://github.com/Poitew/E-Portfolio",
         "src":"/assets/projects-img/shooting-stars.jpg"
     },
@@ -34,9 +47,10 @@
     {
         "name":"ClimateTracker",
         "description":"ClimateTracker is a weather forecasting project made with React.js. ClimateTracker uses the OpenWeather API to allow users to search for any city and get its current weather conditions.",
-        "tech1":"CSS",
-        "tech2":"React.JS",
-        "tech3":"API",
+        "tech1":"JSX",
+        "tech2":"CSS",
+        "tech3":"React.JS",
+        "tech4":"API",
         "github":"https://github.com/Poitew/ClimateTracker",
         "src":"/assets/projects-img/leaf.jpg"
     }

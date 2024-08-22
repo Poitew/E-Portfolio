@@ -7,6 +7,25 @@
     margin-bottom: 15%;
 }
 
+.section-header-container {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.section-header-hr {
+    width: 75%;
+    margin: 0;
+    box-shadow: 0px 0px 10px 0px rgba(45, 255, 196, 0.9);
+    float: right;
+}
+
+.section-header-title {
+    font-size: 4vw;
+    margin: 0;
+    float: right;
+    color: #0ea5e9;
+}
+
 .history {
     width: 45vw;
     margin: 7% 0 0 0;
