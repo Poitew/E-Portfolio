@@ -13,7 +13,7 @@
 
     {
         "name":"Book Realm",
-        "description":"Full stack project that uses Vue.JS as the frontend framework and PHP with MariaDB for the backend. Book Realm helps you find your next read by suggesting a random book and giving you all the information need and a preview of the book. It is also provided with a search functionality that gives all the informations needed about the searched book.",
+        "description":"Full stack project that uses Vue.JS as the frontend framework and PHP with MariaDB for the backend. Book Realm helps you find your next read by suggesting a random book and giving you all the information need. It also provides a search functionality that gives all the information needed about the searched book.",
         "tech1":"HTML",
         "tech2":"CSS",
         "tech3":"Vue.JS",
