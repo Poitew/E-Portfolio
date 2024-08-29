@@ -35,6 +35,17 @@
     padding: 0 0 0 3vw;
 }
 
+#hackathons-link {
+    text-decoration: underline;
+    color: #10709c;
+    transition: all 0.5s ease-in-out;
+}
+
+#hackathons-link:hover {
+    color: #0f81b6;
+    text-shadow: 0 0 10px rgb(0 160 255);
+}
+
 .skill-grid {
     margin: 10% 0 0 5%;
     display: flex;

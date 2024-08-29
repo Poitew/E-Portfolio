@@ -55,8 +55,10 @@ function AboutMe(){
                     proficient in using tools such as Docker for deployment and Jenkins for CI/CD.
                     <br/>
                     <br />
-                    In my free time, I love discovering new technologies, reading books and listening to music. <br/>
-                    Want to hire me? Contact me!
+                    In my free time I love studying anything tech-related, reading books and listening to music;
+                    sometimes I also partecipate in Hackathons, you can find all my projects
+                    <a href="https://github.com/Poitew/Hackathons" id="hackathons-link" > here</a>. <br/>
+                    Want to get in touch? Contact me through the contact form at the end of the page! 
                 </p>
             </div>         
         </div>

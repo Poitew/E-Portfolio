@@ -4,7 +4,7 @@ import '/src/css/aside.css'
 function AsideFunc(){
     return(
         <aside id="homeID">
-            <div className="linkedin center-icon2">
+            <div className="center-icon2">
                 <a 
                   href="https://www.linkedin.com/"
                   rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function AsideFunc(){
                 </a>
             </div>
 
-            <div className="github center-icon2">
+            <div className="center-icon2">
                 <a
                   href="https://github.com/Poitew"
                   rel="noopener noreferrer"

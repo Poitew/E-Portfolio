@@ -10,18 +10,18 @@ function Presentation(){
             </h1> 
             <div className="glow"></div> <br/>
             <ul>
-                <li><img src="/assets/tech/react.svg" alt="React.JS" /> React.JS</li>
-                <li><img src="/assets/tech/vue.svg" alt="Vue.JS" /> Vue.JS</li>
-                <li><img src="/assets/tech/php.svg" alt="PHP" /> PHP</li>
-                <li><img src="/assets/tech/mysql-icon.svg" alt="MySQL" /> MySQL</li>
-                <li><img src="/assets/tech/bash-icon.svg" alt="Bash" /> Bash</li>
+                <li><img src="/assets/tech/react.svg" alt="React.JS" />React.JS</li>
+                <li><img src="/assets/tech/php.svg" alt="PHP" />PHP</li>
+                <li><img src="/assets/tech/docker-icon.svg" alt="Docker" />Docker</li>
+                <li><img src="/assets/tech/jenkins.svg" alt="Jenkins" />Jenkins</li>
+                <li><img src="/assets/tech/git-icon.svg" alt="Git" />Git</li>
             </ul>
             <p id="presentation-description" >
-            I write clean code and automation scripts for optimizing the software development lifecycle; from planning, to
-            testing and finally to monitoring, to ensure fast and high quality applications. <br/>
+                I enjoy writing code, create CI/CD pipeline, Docker Images and in general everything about the software development
+                lifecycle! <br/>
                 <span className="span-block" >
-                    I enjoy learning new technologies and solidify the one I already know to further expand my skills,
-                    I also enjoy reading as it develop my knowledge and creativity.
+                    In my free time I like to create projects and publish them on my GitHub, I also like to study and read books.
+                    If you want to get in touch, use the contact form. Bye!
                 </span>
             </p>
             <a href="#about-me-ID">

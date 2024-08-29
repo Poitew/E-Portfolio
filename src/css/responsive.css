@@ -294,7 +294,8 @@
     }
 
     aside {
-        display: none;
+        visibility: hidden;
+        width: 0;
     }
 
     .presentation {
