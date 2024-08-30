@@ -21,18 +21,8 @@
         },
 
         {
-            "src":"/assets/tech/react-native-1.svg",
-            "alt":"react native"
-        },
-
-        {
             "src":"/assets/tech/vue.svg",
             "alt":"vue.js"
-        },
-
-        {
-            "src":"/assets/tech/vitejs.svg",
-            "alt":"vite.js"
         },
 
         {
