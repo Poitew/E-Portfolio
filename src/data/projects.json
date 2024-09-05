@@ -36,10 +36,11 @@
 
     {
         "name":"E-Portfolio",
-        "description":"A personal e-portfolio built with modern web technologies to showcase my skills and projects and share my resume. It provides a clean and responsive layout to ensure a perfect experience on any device you're using.",
-        "tech1":"JSX",
+        "description":"A personal e-portfolio built with modern web technologies to showcase my skills and projects and share my interests. It provides a clean and responsive layout to ensure a perfect experience on any device you're using.",
+        "tech1":"TSX",
         "tech2":"CSS",
-        "tech3":"React.JS",
+        "tech3":"TypeScript",
+        "tech4":"React.JS",
         "github":"https://github.com/Poitew/E-Portfolio",
         "src":"/assets/projects-img/shooting-stars.jpg"
     },

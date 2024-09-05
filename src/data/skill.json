@@ -16,6 +16,11 @@
         },
 
         {
+            "src":"/assets/tech/typescript-icon.svg",
+            "alt":"typescript"
+        },
+
+        {
             "src":"/assets/tech/react.svg",
             "alt":"react.js"
         },

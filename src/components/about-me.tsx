@@ -4,8 +4,8 @@ import '/src/css/about-me.css'
 
 function AboutMe(){
 
-    const SoftwareDev_skills = skills.SoftwareDev;
-    const DevOps_skills = skills.DevOps;
+    const SoftwareDev_skills: any[] = skills.SoftwareDev;
+    const DevOps_skills: any[] = skills.DevOps;
 
     return(
         <div className="about-me-section" id="about-me-ID" >
@@ -14,7 +14,7 @@ function AboutMe(){
                 <div className="soft-dev-skill">
                     <p>Software Development</p>
                     <div className="row">
-                        {SoftwareDev_skills.map((element, index) => (
+                        {SoftwareDev_skills.map((element: any, index: number) => (
                             <img
                                 key={index}
                                 src={element.src}
@@ -27,7 +27,7 @@ function AboutMe(){
                 <div className="DevOps-skill">
                     <p>DevOps Engineering</p>
                     <div className="row">
-                        {DevOps_skills.map((element, index) => (
+                        {DevOps_skills.map((element: any, index: number) => (
                             <img
                                 key={index}
                                 src={element.src}
@@ -49,7 +49,7 @@ function AboutMe(){
                     knowledge.
                     <br />
                     <br />
-                    As a Software Developer I have strong experience in various languages such as HTML, CSS, JavaScript,
+                    As a Software Developer I have strong experience in various languages such as HTML, CSS, JavaScript / TypeScript,
                     React.JS, Vue.Js, PHP, MySQL and outside of web development: C++.
                     While as a DevOps I have experience in using the Linux operating system and Bash/Python for automating tasks, I'm also
                     proficient in using tools such as Docker for deployment and Jenkins for CI/CD.
@@ -65,7 +65,12 @@ function AboutMe(){
     );
 }
 
-function SectionHeader(props){
+interface SectionHeaderProps {
+    title: string;
+}
+
+
+function SectionHeader(props: SectionHeaderProps){
     return(
         <div className="section-header-container">
             <hr className="section-header-hr" />

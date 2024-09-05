@@ -18,7 +18,7 @@ function Footer() {
                 <br/>
                 <label htmlFor="message-input">
                     Message <br/>
-                    <textarea type="text" name="message" placeholder="Your Message" id="message-input" className="base-input"/>
+                    <textarea name="message" placeholder="Your Message" id="message-input" className="base-input"/>
                 </label>
                 <br/>
                 <input type="submit" value="Send Message" id="submit-input" className="base-input" />
@@ -56,7 +56,13 @@ function Footer() {
     );
 }
 
-function Icon(props){
+interface IconProp {
+    href: string;
+    src: string;
+    alt: string;
+}
+
+function Icon(props: IconProp){
     return (
         <a 
             href={props.href}

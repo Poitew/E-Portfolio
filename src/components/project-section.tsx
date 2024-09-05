@@ -4,7 +4,7 @@ import '/src/css/project-section.css'
 
 function ProjectSection(){
 
-    const projects_info = projects;
+    const projects_info: any[] = projects;
 
     return(
         <div className="projects-section" id="projects-ID" >
@@ -29,7 +29,20 @@ function ProjectSection(){
     );
 }
 
-function Project(props){
+interface ProjectsProp {
+    src: string;
+    name: string;
+    desc: string;
+    tech1: string;
+    tech2: string;
+    tech3: string;
+    tech4: string;
+    tech5: string;
+    tech6: string;
+    github: string;
+}
+
+function Project(props: ProjectsProp){
     return(
         <div className="project" style={{ backgroundImage: `url(${props.src})`}}>
             <p className="project-text">
