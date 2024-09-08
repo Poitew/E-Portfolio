@@ -2,6 +2,11 @@ import React from "react"
 import skills from "/src/data/skill.json"
 import '/src/css/about-me.css'
 
+interface skill_element {
+    src: string;
+    alt: string;
+}
+
 function AboutMe(){
 
     const SoftwareDev_skills: any[] = skills.SoftwareDev;
@@ -14,7 +19,7 @@ function AboutMe(){
                 <div className="soft-dev-skill">
                     <p>Software Development</p>
                     <div className="row">
-                        {SoftwareDev_skills.map((element: any, index: number) => (
+                        {SoftwareDev_skills.map((element: skill_element, index: number) => (
                             <img
                                 key={index}
                                 src={element.src}
@@ -27,7 +32,7 @@ function AboutMe(){
                 <div className="DevOps-skill">
                     <p>DevOps Engineering</p>
                     <div className="row">
-                        {DevOps_skills.map((element: any, index: number) => (
+                        {DevOps_skills.map((element: skill_element, index: number) => (
                             <img
                                 key={index}
                                 src={element.src}
