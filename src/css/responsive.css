@@ -16,8 +16,9 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 600px) {
 
-    body, html {
-        overflow-x: visible !important;
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
     }
 
     p {
