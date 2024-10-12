@@ -1,19 +1,250 @@
-/* X-Large devices (large desktops, less than 1400px) */
-@media only screen and (max-width: 1399.98px) {
+/* XX-Small Devices (max-width: 361.98px) */
+@media only screen and (max-width: 361.98px) {
+    header {
+        height: 7.5vh;
+    }
+
+    .presentation h1 {
+        height: 20vh;
+    }
+
+    .first-background {
+        height: 60vh;
+    }
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media only screen and (max-width: 1199.98px) {
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 600px) {
+    p {
+        margin: 0;
+        font-size: calc(0.1rem + 3vw);
+    }
 
+    header {
+        height: 8vh;
+        justify-content: space-evenly;
+        background-color: rgb(12, 7, 24)
+    }
+
+    .logo-header {
+        display: none;
+    }
+
+    .home, .about-me, .projects-nav-bar {
+        width: 27vw !important;
+        margin-left: 0;
+    }
+
+    aside {
+        visibility: hidden;
+        width: 0;
+    }
+
+    aside img {
+        width: 6vw;
+    }
+
+    .presentation {
+        width: 90vw;
+        height: 100vh;
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    .presentation h1 {
+        font-size: 10vw;
+        margin-top: 5%;
+    }
+
+    .presentation li {
+        font-size: 4vw !important;
+    }
+
+    .presentation li img {
+        width: 4vw;
+    }
+
+    #presentation-description {
+        width: 100%;
+        font-size: 4vw !important;
+    }
+
+    .base-button {
+        width: 25vw;
+        height: 5vh;
+        margin-left: 0;
+    }
+
+    .base-button p {
+        font-size: 3vw !important;
+    }
+
+    .about-me-redirect p, .resume p {
+        font-size: 3.5vw !important;
+    }
+
+    .history {
+        width: 95%;
+        border-left: 0;
+        font-size: 4vw !important;
+    }
+
+    .projects-section {
+        padding-top: 25%;
+    }
+
+    .project {
+        padding-top: 3vw;
+        padding-left: 2%;
+    }
+
+    .project-text {
+        font-size: 6vw;
+        width: 80vw !important;
+    }
+
+    .project-text span {
+        font-size: 4.5vw;
+    }
+
+    .tech-project {
+        gap: 2vw;
+        margin-top: 5%;
+    }
+
+    .tech-project li {
+        font-size: 4vw !important;
+    }
+
+    .test {
+        display: none;
+    }
+
+    .test img {
+        width: 8vw;
+    }
+
+    .first-background {
+        height: 100vh;
+    }
+
+    .section-header-title {
+        font-size: 10vw;
+    }
+
+    .skill-grid {
+        width: 80%;
+        gap: 2vh;
+    }
+
+    .skill-grid img {
+        width: 6vw;
+    }
+
+    .skill-grid p {
+        font-size: 7vw;
+    }
+
+    .row img {
+        width: 8vw;
+    }
+
+    .about-me-section {
+        margin-bottom: 30%;
+        flex-direction: column-reverse;
+    }
+
+    .row {
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vh 8vw;
+    }
+
+    footer {
+        height: 90vh;
+        align-items: center;
+        font-size: 2.5vw;
+    }
+
+    footer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer input, footer textarea {
+        width: 60vw !important;
+    }
+
+    footer img {
+        width: 7vw !important;
+    }
 }
 
-/* Medium devices (tablets, less than 992px) */
-@media only screen and (max-width: 991.98px) {
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 768px) and (max-height: 600px) {
+
+    body, html {
+        overflow-x: visible;
+    }
+
+    header {
+        height: 10vh;
+        justify-content: flex-start;
+    }
+
+    aside {
+        width: auto;
+    }
+
+    .history {
+        font-size: 3vw;
+    }
+
+    .presentation {
+        margin-top: 7%;
+    }
+
+    #presentation-description {
+        font-size: 2vw;
+    }
+
+    .about-me-section {
+        flex-direction: column-reverse;
+    }
+
+    .history {
+        width: 95%;
+        border-left: 0;
+        font-size: 2vw !important;
+    }
+
+    .project-text {
+        font-size: 5vw;
+        line-height: 0.5;
+    }
+
+    .project-text span {
+        font-size: 1.05vw;
+    }
+
+    .test img {
+        width: 5.5vw;
+    }
+
+    .footer-thanks {
+        font-size: 2.5vw;
+    }
+}
+
+/* Medium devices (tablets, less than 1025px) */
+@media only screen and (min-width: 700px) and (max-width: 1025px) and (min-height: 700px) {
     header {
         height: 9vw;
     }
 
-    .logo-header{
+    .logo-header {
         display: none;
     }
 
@@ -51,7 +282,7 @@
     }
 
     aside {
-        width: 10vw;
+        width: fit-content;
     }
 
     aside img {
@@ -63,7 +294,7 @@
     }
 
     .section-header-title {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .history {
@@ -99,273 +330,4 @@
         height: 95vh;
         margin-top: 20%;
     }
-}
-
-/* Tablets - not Ipad Pro */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-    header {
-        justify-content: flex-start;
-    }
-
-    aside {
-        width: auto;
-    }
-
-    #presentation-description {
-        font-size: 3.5vw;
-    }
-
-    .about-me-redirect {
-        margin-left: 35%;
-    }
-
-    .base-button {
-        width: 20vw;
-    }
-
-    .base-button p {
-        font-size: 3vw !important;
-    }
-
-    .history {
-        width: 95%;
-    }
-
-    .skill-grid p {
-        font-size: 5vw;
-    }
-
-    .project-text {
-        width: 90%;
-        font-size: 5vw;
-    }
-
-    .test img {
-        width: 5.5vw;
-    }
-    
-    footer {
-        font-size: 2.5vw;
-    }
-
-    .footer-thanks {
-        font-size: 2.5vw;
-    }
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media only screen and (max-width: 767.98px) {
-
-    header {
-        height: 10vh;
-        background-color: rgb(12, 7, 24);
-    }
-
-    .home, .about-me, .projects-nav-bar {
-        width: 27vw !important;
-        margin-left: 0;
-    }
-
-    aside img {
-        width: 6vw;
-    }
-
-    .presentation {
-        margin-top: 20%;
-    }
-
-    .presentation h1 {
-        font-size: 10vw;
-        margin-top: 5%;
-    }
-
-    .presentation li {
-        font-size: 4vw !important;
-    }
-
-    .presentation li img {
-        width: 4vw;
-    }
-
-    #presentation-description {
-        width: 100%;
-        font-size: 4vw !important;
-    }
-
-    .base-button {
-        width: 25vw;
-        height: 5vh;
-        margin-left: 0;
-    }
-
-    .about-me-redirect p, .resume p {
-        font-size: 3.5vw !important;
-    }
-
-    .history {
-        width: 95%;
-        border-left: 0;
-        font-size: 4vw !important;
-    }
-
-    .projects-section {
-        height: 245vh;
-        padding-top: 25%;
-    }
-
-    .projects-container {
-        height: 100%;
-        grid-template-columns: 100%;
-        grid-template-rows: 20% 20% 20% 20% 20%;
-        gap: 0;
-    }
-
-    .project:nth-child(3) {
-        grid-column: auto;
-    }
- 
-    .project {
-        padding-top: 3vw;
-    }
- 
-    .project-text {
-        font-size: 6vw;
-        width: 80vw;
-    }
- 
-    .project-text span {
-        font-size: 4.5vw;
-    }
- 
-    .tech-project {
-        gap: 2vw;
-        margin-top: 5%;
-    }
-
-    .tech-project li {
-        font-size: 4vw !important;
-    }
-
-    .project:nth-child(1), .project:nth-child(2), .project:nth-child(3) {
-        grid-column: auto;
-    }
-
-    .project:nth-child(1) .project-text, .project:nth-child(2) .project-text, .project:nth-child(3) .project-text {
-        width: 95%;
-        height: fit-content;
-    }
- 
-    .test {
-        margin-top: 7%;
-        margin-right: 5%;
-    }
- 
-    .test img {
-        width: 8vw;
-    }
-
-    footer {
-        height: 90vh;
-        align-items: center;
-    }
-
-    .base-input, textarea, #submit-input {
-        font-size: 16px;
-        width: 60vw;
-    }
-
-    footer img {
-        width: 7vw !important;
-    }
-
-}
-
-/* X-Small devices (portrait phones, less than 576px) */
-@media only screen and (max-width: 575.98px) {
-    p {
-        margin: 0;
-        font-size: calc(0.1rem + 3vw);
-    }
-
-    header {
-        height: 8vh;
-        justify-content: space-evenly;
-    }
-
-    aside {
-        visibility: hidden;
-        width: 0;
-    }
-
-    .presentation {
-        width: 90vw;
-        height: 100vh;
-        margin-left: 3%;
-    }
-
-    .first-background {
-        height: 100vh;
-    }
-
-    .about-me-section {
-        margin-bottom: 30%;
-    }
-
-    .section-header-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section-header-hr {
-        width: 100%;
-    }
-    
-    .section-header-title {
-        font-size: 10vw;
-    }
-
-    .skill-grid p {
-        font-size: 7vw;
-    }
-
-    .row {
-        gap: 5vw 5vw;
-    }
-
-    .row img {
-        width: 8vw;
-    }
-
-    .project-text {
-        height: 27vh;
-    }
-
-    footer {
-        height: 105vh;
-        margin-top: 20%;
-    }
-
-    .footer-sitemap {
-        width: 100%;
-    }
-}
-
-/* XX-Small Devices */
-@media only screen and (max-width: 361.98px) {
-    header {
-        height: 7.5vh;
-    }
-
-    .presentation h1 {
-        height: 20vh;
-    }
-
-    .first-background {
-        height: 60vh;
-    }
-
 }

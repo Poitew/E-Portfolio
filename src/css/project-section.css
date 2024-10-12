@@ -2,37 +2,21 @@
     width: 100%;
     height: 100%;
     padding-top: 5%;
-}
-
-.projects-container {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-}
-
-.project:nth-child(1), .project:nth-child(2), .project:nth-child(3) {
-    grid-column: 1 / span 2;
-}
-
-.project:nth-child(1) .project-text, .project:nth-child(2) .project-text, .project:nth-child(3) .project-text {
-    width: 60vw;
 }
 
 .project {
     background-size: cover;
-    padding-top: 5rem;
-    padding-left: 6.5rem;
+    padding: 5rem 0 0 6.5rem;
     box-shadow: 0px 0px 0px 2px gray;
     border-radius: 8px;
 }
 
 .project-text {
-    width: 30vw;
-    height: 40vh;
-    font-size: 2.78vw;
+    width: 60vw;
+    font-size: 2.7vw;
     line-height: 1;
 }
 
@@ -47,6 +31,7 @@
     display: flex;
     gap: 2vw;
     float: left;
+    padding: 0;
 }
 
 .tech-project li {
@@ -63,12 +48,4 @@
     width: 2.5vw;
     margin-right: 10%;
     float: left;
-}
-
-#globe {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(89deg) brightness(111%) contrast(101%);
-}
-
-.weather-project {
-    grid-column: 1 / span 2;
 }

@@ -8,23 +8,16 @@ function ProjectSection(){
 
     return(
         <div className="projects-section" id="projects-ID" >
-            <div className="projects-container">
-                {projects_info.map((element, index) => (
-                    <Project
-                        key={index}
-                        name={element.name}
-                        desc={element.description}
-                        src={element.src}
-                        tech1={element.tech1}
-                        tech2={element.tech2}
-                        tech3={element.tech3}
-                        tech4={element.tech4}
-                        tech5={element.tech5}
-                        tech6={element.tech6}
-                        github={element.github}
-                    />
-                ))}
-            </div>
+            {projects_info.map((element, index) => (
+                <Project
+                    key={index}
+                    name={element.name}
+                    desc={element.description}
+                    src={element.src}
+                    tech={element.tech}
+                    github={element.github}
+                />
+            ))}
         </div>
     );
 }
@@ -33,12 +26,7 @@ interface ProjectsProp {
     src: string;
     name: string;
     desc: string;
-    tech1: string;
-    tech2: string;
-    tech3: string;
-    tech4: string;
-    tech5: string;
-    tech6: string;
+    tech: string[];
     github: string;
 }
 
@@ -52,12 +40,9 @@ function Project(props: ProjectsProp){
                 </span>
             </p>
             <ul className="tech-project">
-                <li>{props.tech1}</li>
-                <li>{props.tech2}</li>
-                <li>{props.tech3}</li>
-                <li>{props.tech4}</li>
-                <li>{props.tech5}</li>
-                <li>{props.tech6}</li>
+                {props.tech.map((techItem, index) => (
+                    <li key={index}>{techItem}</li>
+                ))}
             </ul>
             <div className="test">
                 <a href={props.github}>
