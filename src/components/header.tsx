@@ -4,7 +4,7 @@ import '/src/css/header.css'
 function HeaderFunc(){
     return(
         <header>
-            <a href="#about-me-ID">
+            <a href="#about-me-ID" id="logo-a" >
                 <div className="logo-header">
                     <img src="/assets/icons/logo.png" alt="Code Logo" id="js-logo-img" />
                     <p>SICKPOITEW</p>

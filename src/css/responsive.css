@@ -16,8 +16,7 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 600px) {
 
-    body {
-        overflow-x: hidden;
+    body, html {
         max-width: 100%;
     }
 
@@ -32,7 +31,7 @@
         background-color: rgb(12, 7, 24)
     }
 
-    .logo-header {
+    #logo-a, .logo-header {
         display: none;
     }
 
@@ -168,7 +167,7 @@
     }
 
     footer {
-        height: 90vh;
+        height: 100vh;
         align-items: center;
         font-size: 2.5vw;
     }
