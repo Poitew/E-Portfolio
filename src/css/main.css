@@ -49,10 +49,6 @@ h2 {
 }
 
 h3 {
-    font-size: calc(0.2rem + 1vw);
-}
-
-h5 {
     font-size: 5vw;
     margin: 0 5% 0 5%;
 }

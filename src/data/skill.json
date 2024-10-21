@@ -2,69 +2,69 @@
     "SoftwareDev":[
         {
             "src":"/assets/tech/html-5-svgrepo-com.svg",
-            "alt":"html"
+            "alt":"HTML5"
         },
 
         {
             "src":"/assets/tech/css-3-svgrepo-com.svg",
-            "alt":"css"
+            "alt":"CSS3"
         },
 
         {
             "src":"/assets/tech/javascript.svg",
-            "alt":"javascript"
+            "alt":"JavaScript"
         },
 
         {
             "src":"/assets/tech/typescript-icon.svg",
-            "alt":"typescript"
+            "alt":"TypeScript"
         },
 
         {
             "src":"/assets/tech/react.svg",
-            "alt":"react.js"
+            "alt":"React.JS"
         },
 
         {
             "src":"/assets/tech/vue.svg",
-            "alt":"vue.js"
+            "alt":"Vue.JS"
         },
 
         {
             "src":"/assets/tech/php.svg",
-            "alt":"php"
+            "alt":"PHP"
         },
 
         {
             "src":"/assets/tech/jwt-icon.svg",
-            "alt":"jwt"
+            "alt":"JWT"
         },
 
         {
             "src":"/assets/tech/mysql-icon.svg",
-            "alt":"mysql"
+            "alt":"MySql"
         },
 
         {
             "src":"/assets/tech/c-plusplus.svg",
-            "alt":"c++"
+            "alt":"C++"
         }
     ],
 
     "DevOps":[
         {
             "src":"/assets/tech/bash-icon.svg",
-            "alt":"bash"
+            "alt":"Bash"
         },
 
         {
             "src":"/assets/tech/python.svg",
-            "alt":"Docker"
+            "alt":"Python3"
         },
 
         {
             "src":"/assets/tech/git-icon.svg",
-            "alt":"Docker"
+            "alt":"Git"
         },
 
         {
@@ -74,7 +74,7 @@
 
         {
             "src":"/assets/tech/jenkins.svg",
-            "alt":"Docker"
+            "alt":"Jenkins"
         }
 
     ]

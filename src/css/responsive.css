@@ -1,5 +1,5 @@
-/* XX-Small Devices (max-width: 361.98px) */
-@media only screen and (max-width: 361.98px) {
+/* XX-Small Devices (max-width: 362px) */
+@media only screen and (max-width: 362px) {
     header {
         height: 7.5vh;
     }
@@ -13,7 +13,7 @@
     }
 }
 
-/* X-Small devices (portrait phones, less than 576px) */
+/* X-Small devices (portrait phones, less than 600px) */
 @media only screen and (max-width: 600px) {
 
     body, html {
@@ -188,7 +188,7 @@
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media only screen and (min-width: 768px) and (max-height: 600px) {
+@media only screen and (min-width: 768px) and (max-height: 600px) and (orientation: landscape) {
 
     body, html {
         overflow-x: visible !important;
@@ -243,8 +243,8 @@
     }
 }
 
-/* Medium devices (tablets, less than 1025px) */
-@media only screen and (min-width: 700px) and (max-width: 1025px) and (min-height: 700px) {
+/* Medium devices (tablets, less than 1024px) */
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (min-height: 700px) {
     header {
         height: 9vw;
     }

@@ -55,14 +55,14 @@ function AboutMe(){
                     <br />
                     <br />
                     As a Software Developer I have strong experience in various languages such as HTML, CSS, JavaScript / TypeScript,
-                    React.JS, Vue.Js, PHP, MySQL and outside of web development: C++.
+                    React.JS, Vue.Js, PHP with JWT for Login, MySQL and outside of web development: C++.
                     While as a DevOps I have experience in using the Linux operating system and Bash/Python for automating tasks, I'm also
                     proficient in using tools such as Docker for deployment and Jenkins for CI/CD.
                     <br/>
                     <br />
                     In my free time I love studying anything tech-related, reading books and listening to music;
-                    sometimes I also partecipate in Hackathons, you can find all my projects
-                    <a href="https://github.com/Poitew/Hackathons" id="hackathons-link" > here</a>. <br/>
+                    sometimes I also partecipate in Hackathons, you can find all my
+                    <a href="https://github.com/Poitew/Hackathons" id="hackathons-link" > projects here</a>. <br/>
                     Want to get in touch? Contact me through the contact form at the end of the page! 
                 </p>
             </div>         
@@ -79,7 +79,7 @@ function SectionHeader(props: SectionHeaderProps){
     return(
         <div className="section-header-container">
             <hr className="section-header-hr" />
-            <h3 className="section-header-title">{props.title}</h3>
+            <h2 className="section-header-title">{props.title}</h2>
         </div>
     );
 }

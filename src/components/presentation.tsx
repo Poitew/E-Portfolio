@@ -10,11 +10,11 @@ function Presentation(){
             </h1> 
             <div className="glow"></div> <br/>
             <ul>
-                <li><img src="/assets/tech/react.svg" alt="React.JS" />React.JS</li>
-                <li><img src="/assets/tech/php.svg" alt="PHP" />PHP</li>
-                <li><img src="/assets/tech/docker-icon.svg" alt="Docker" />Docker</li>
-                <li><img src="/assets/tech/jenkins.svg" alt="Jenkins" />Jenkins</li>
-                <li><img src="/assets/tech/git-icon.svg" alt="Git" />Git</li>
+                <li><img src="/assets/tech/react.svg" alt="React.JS Framework" />React.JS</li>
+                <li><img src="/assets/tech/php.svg" alt="PHP BackEnd Language" />PHP</li>
+                <li><img src="/assets/tech/docker-icon.svg" alt="Docker Technology" />Docker</li>
+                <li><img src="/assets/tech/jenkins.svg" alt="Jenkins CI/CD" />Jenkins</li>
+                <li><img src="/assets/tech/git-icon.svg" alt="Git Version Control System" />Git</li>
             </ul>
             <p id="presentation-description" >
                 I enjoy writing code, create CI/CD pipeline, Docker Images and in general everything about the software development

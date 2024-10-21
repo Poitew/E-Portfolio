@@ -4,7 +4,7 @@ import '/src/css/footer.css';
 function Footer() {
     return (
         <footer>
-            <h5>Contact Me</h5>
+            <h3>Contact Me</h3>
             <form action="https://formspree.io/f/xleqvddg"method="POST">
                 <label htmlFor="username-input">
                     Name <br/>

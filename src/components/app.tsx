@@ -1,4 +1,3 @@
-import React from "react"
 import HeaderFunc from './header'
 import Firstbg from './first-background'
 import Script from "./script"
