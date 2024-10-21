@@ -61,8 +61,8 @@ function AboutMe(){
                     <br/>
                     <br />
                     In my free time I love studying anything tech-related, reading books and listening to music;
-                    sometimes I also partecipate in Hackathons, you can find all my
-                    <a href="https://github.com/Poitew/Hackathons" id="hackathons-link" > projects here</a>. <br/>
+                    sometimes I also partecipate in Hackathons, you can find all my&nbsp;
+                    <a href="https://github.com/Poitew/Hackathons" id="hackathons-link" >projects here</a>. <br/>
                     Want to get in touch? Contact me through the contact form at the end of the page! 
                 </p>
             </div>         

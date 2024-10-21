@@ -43,15 +43,12 @@
     aside {
         visibility: hidden;
         width: 0;
-    }
-
-    aside img {
-        width: 6vw;
+        height: 100vh;
     }
 
     .presentation {
         width: 90vw;
-        height: 100vh;
+        height: 90vh;
         margin-left: 3%;
         margin-top: 20%;
     }
@@ -61,17 +58,17 @@
         margin-top: 5%;
     }
 
-    .presentation li {
+    .presentation ul li {
         font-size: 4vw;
     }
 
-    .presentation li img {
+    .presentation ul li img {
         width: 4vw;
     }
 
     #presentation-description {
         width: 100%;
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .base-button {
@@ -88,6 +85,10 @@
         font-size: 3.5vw;
     }
 
+    .section-header-hr {
+        display: none;
+    }
+
     .history {
         width: 95%;
         border-left: 0;
@@ -99,13 +100,13 @@
     }
 
     .project {
-        padding-top: 3vw;
-        padding-left: 2%;
+        padding: 3% 0 0 2%;
+        text-align: center;
     }
 
     .project-text {
         font-size: 6vw;
-        width: 80vw;
+        width: 95vw;
     }
 
     .project-text span {
@@ -114,6 +115,8 @@
 
     .tech-project {
         gap: 2vw;
+        width: 95vw;
+        justify-content: space-evenly;
         margin-top: 5%;
     }
 
@@ -123,10 +126,6 @@
 
     .test {
         display: none;
-    }
-
-    .test img {
-        width: 8vw;
     }
 
     .first-background {
@@ -139,6 +138,7 @@
 
     .skill-grid {
         width: 80%;
+        margin-left: 0;
         gap: 2vh;
     }
 
@@ -178,11 +178,15 @@
         align-items: center;
     }
 
-    footer input, footer textarea {
+    .base-input, textarea, #submit-input {
         width: 60vw;
     }
 
-    footer img {
+    footer a {
+        font-size: 3.5vw;
+    }
+
+    .footer-icons img {
         width: 7vw;
     }
 }
