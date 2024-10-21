@@ -8,6 +8,7 @@
 }
 
 .project {
+    min-height: 70vh;
     background-size: cover;
     padding: 5rem 0 0 6.5rem;
     box-shadow: 0px 0px 0px 2px gray;
