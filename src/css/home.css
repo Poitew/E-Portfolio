@@ -1,0 +1,117 @@
+#main-home {
+    width: 100%;
+    height: 110vh;
+    background-color: #120b1d;
+}
+
+/* Presentation */
+.presentation {
+    float: left;
+    width: 80vw;
+    margin: 10% 0 0 8%;
+}
+
+.presentation h1 {
+    word-spacing: 0.5vw;
+    color: white;
+    letter-spacing: -0.05em;
+}
+
+.h1-span {
+    color: #0ea5e9;
+}
+
+.presentation ul {
+    width: fit-content;
+    display: flex;
+    gap: 0 3vw;
+    padding: 0;
+}
+
+.presentation ul li {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    transition: transform 0.5s ease-in-out;
+}
+
+.presentation ul li:hover {
+    transform: scale(1.2);
+}
+
+.presentation img {
+    width: 2vw;
+}
+
+#presentation-description {
+    font-size: 1.4vw;
+    width: 80%;
+    color: rgb(148 163 184);
+}
+
+.span-block {
+    display: block;
+    padding-top: 2rem;
+}
+
+.base-button {
+    width: 13vw;
+    height: 7vh;
+    border: 2px solid #595265;
+    border-radius: 0.5vw;
+    background-color: #2a2039;
+    float: left;
+    transition: background-color 1s ease-in-out;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base-button:hover {
+    background-color: #3f2e59;
+}
+
+.about-me-redirect {
+    margin: 5% 5% 0 40%;
+    box-shadow: 0px 0px 66px 2px rgba(45,255,196,0.47);
+    font-weight: 600;
+    color: rgb(17, 169, 0);
+    transition: box-shadow 1s ease-in-out;
+}
+
+.about-me-redirect:hover {
+    box-shadow: 0px 0px 66px 2px rgba(45,255,196,1);
+}
+
+.projects-redirect {
+    background: none;
+}
+
+.glow {
+    width: 25vw; 
+    height: 25vw;
+    margin-left: 65%;
+    margin-top: -10%;
+    border-radius: 50%;
+    background-color: rgba(26, 118, 97, 0.5); 
+    box-shadow: 0 0 50px rgba(26, 118, 97, 0.5),
+                inset 0 0 50px rgba(26, 118, 97, 0.5); 
+    filter: blur(60px);
+    position: absolute;
+}
+
+/* aside */
+aside {
+    width: 5vw;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside img {
+    width: 3vw;
+}

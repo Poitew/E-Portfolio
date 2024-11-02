@@ -1,0 +1,40 @@
+#projects-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.project {
+    min-height: 70vh;
+    padding: 5% 0 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid rgb(179, 175, 175);
+    border-bottom: 2px solid rgb(179, 175, 175);
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.project-info p {
+    width: 65%;
+    line-height: 3;
+}
+
+.project-info ul {
+    padding: 0;
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+}
+
+#github-project {
+    width: 3vw;
+}

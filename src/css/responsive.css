@@ -1,0 +1,315 @@
+/* XX-Small Devices (max-width: 362px) */
+@media only screen and (max-width: 362px) {
+    header {
+        height: 7.5vh;
+    }
+
+    .presentation h1 {
+        height: 20vh;
+    }
+
+    .first-background {
+        height: 60vh;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+
+    body, html {
+        max-width: 100%;
+    }
+
+    header p {
+        margin: 0;
+        font-size: calc(0.1rem + 5vw);
+    }
+
+    header {
+        background-color: transparent;
+        flex-direction: column;
+        justify-content: normal;
+        width: 55%;
+        height: 100vh;
+        color: white;
+        transition: none;
+    }
+
+    #ham_btn {
+        background: none;
+        border: none;
+        padding-top: 7.5%;
+    }
+    
+    #ham_menu {
+        width: 85%;
+        height: 100%;
+        padding-top: 20%;
+        background-color: #0c0719;
+        margin-top: -1%;
+        display: flex;
+        flex-direction: column;
+        gap: 8vh;
+    }
+
+    #ham_btn img {
+        float: left;
+        filter: invert(100%) sepia(0%) saturate(7429%) hue-rotate(33deg) brightness(93%) contrast(117%);
+    }
+
+    header ul, #ham_btn {
+        width: 100%;
+        padding-left: 15%;
+        margin: 0;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    #logo-a {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .presentation {
+        width: 90vw;
+        margin: 20% 0 0 3%;
+    }
+
+    .presentation h1 {
+        font-size: 10vw;
+    }
+
+    .presentation ul li img {
+        width: 4vw;
+    }
+
+    #presentation-description {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .base-button {
+        width: 25vw;
+        height: 5vh;
+        margin-left: 0;
+    }
+
+    .base-button p {
+        font-size: 3.5vw;
+    }
+
+    .section-header-container hr {
+        display: none;
+    }
+
+    .section-header-container h2 {
+        font-size: 10vw;
+    }
+
+    .history {
+        width: 95%;
+        border-left: 0;
+        font-size: 4vw;
+    }
+
+    .skills-grid-container {
+        width: 80%;
+        margin-left: 0;
+        gap: 5vh;
+    }
+
+    .skills-grid-container p {
+        font-size: 7vw;
+    }
+
+    .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vh 8vw;
+    }
+
+    .skills-grid img {
+        width: 8vw;
+    }
+
+    .about-me-section {
+        margin-bottom: 30%;
+        flex-direction: column-reverse;
+    }
+
+    .project {
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .project-info {
+        align-items: center;
+    }
+
+    .project-info p {
+        width: 90%;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    #github-project {
+        width: 10vw;
+    }
+
+    footer {
+        height: 120vh;
+        gap: 3vh;
+    }
+
+    footer h3 {
+        font-size: 12.5vw;
+    }
+
+    label {
+        font-size: 5vw;
+    }
+
+    .base-input, textarea, #submit-input {
+        width: 60vw;
+        margin-bottom: 10%;
+    }
+
+    footer a {
+        font-size: 3.5vw;
+    }
+
+    .footer-icons img {
+        width: 7vw;
+    }
+
+    .footer-thanks {
+        font-size: 3.5vw;
+    }
+}
+
+/* Medium devices (tablets, less than 1024px) */
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (min-height: 600px) {
+    header {
+        height: 9vw;
+        justify-content: space-around;
+    }
+    
+    #logo-a {
+        display: none;
+    }
+
+    header p {
+        font-size: 4vw;
+    }
+
+    .home {
+        margin-left: 5%;
+    }
+
+    .nav-bar-divs {
+        width: 25vw;
+    }
+
+    .presentation h1 {
+        font-size: 9vw;
+    }
+
+    .presentation li {
+        font-size: 3vw;
+    }
+
+    .presentation li img {
+        width: 4vw;
+    }
+
+    #presentation-description {
+        font-size: 4.5vw;
+        width: 100%;
+    }
+
+    .base-button {
+        width: 20vw;
+    }
+
+    .base-button p {
+        font-size: 2vw;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .about-me-section {
+        flex-direction: column-reverse;
+    }
+
+    .section-header-title {
+        font-size: 8vw;
+    }
+
+    .history {
+        width: 90%;
+        font-size: 3vw;
+    }
+
+    .skills-grid-container {
+        width: 80%;
+        margin-left: 0;
+        gap: 5vh;
+    }
+
+    .skills-grid-container p {
+        font-size: 5vw;
+    }
+
+    .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vh 8vw;
+    }
+
+    .skills-grid img {
+        width: 8vw;
+    }
+
+    .project-info p {
+        width: 90%;
+        line-height: 2;
+        font-size: 3vw;
+    }
+
+    .project-info ul {
+        font-size: 3vw;
+    }
+
+    #github-project {
+        width: 6vw;
+    }
+
+    footer {
+        margin-top: 15%;
+        gap: 5vh;
+    }
+
+    footer h3 {
+        font-size: 10.5vw;
+    }
+
+    label, footer a, .footer-thanks  {
+        font-size: 3vw;
+    }
+
+    .base-input, textarea, #submit-input {
+        width: 40vw;
+        margin-bottom: 15%;
+    }
+
+    .footer-icons img {
+        width: 6vw;
+    }
+}
