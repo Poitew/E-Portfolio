@@ -1,13 +1,12 @@
-import React from "react"
-import projects from "/src/data/projects.json"
-import '/src/css/project-section.css'
+import projects from "/src/data/json/projects.json"
+import style from '/src/css/app/project-section.module.css'
 
 function ProjectSection(){
 
     const projects_info: any[] = projects;
 
     return(
-        <div id="projects-section" >
+        <div className={style.section} id="projects-section" >
             {projects_info.map((element, index) => (
                 <Project
                     key={index}
@@ -32,17 +31,19 @@ interface ProjectsProp {
 
 function Project(props: ProjectsProp){
     return(
-        <div className="project" style={{ backgroundImage: `url(${props.src})`}}>
-            <div className="project-info">
+        <div className={style.project} style={{ backgroundImage: `url(${props.src})`}}>
+            <div className={style.info}>
                 <h3>{props.name}</h3>
-                <p>{props.desc}</p>
-                <ul>
+                <p className={style.description} >{props.desc}</p>
+
+                <ul className={style.list} >
                     {props.tech.map((techItem, index) => (
                         <li key={index}>{techItem}</li>
                     ))}
                 </ul>
             </div>
-            <a href={props.github} id="github-project" >
+            
+            <a href={props.github} className={style.link} >
                 <img src="/assets/tech/github.svg" alt="github repo" />
             </a>
         </div>
