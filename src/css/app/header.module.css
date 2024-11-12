@@ -100,6 +100,7 @@
         flex-direction: column;
         background-color: #0c0719;
         height: 100vh;
+        transform: translateY(-200%);
     }
 
     .li {

@@ -15,53 +15,42 @@ function HeaderFunc(){
     const color: string = "#0ea5e9";
 
     useEffect(() => {
-        if(width > 600){
-            if (homeP.current) homeP.current.style.color = color;
-            if (aboutMeP.current) aboutMeP.current.style.color = "white";
-            if (projectsP.current) projectsP.current.style.color = "white";
-
-            const handleScroll = () => {
-                const websitePosition = window.scrollY;
-
-                // Changes the logo size
-                if (window.innerWidth > 767) {
-                    if (header.current) {
-                        header.current.style.background = websitePosition >= 50 ? "rgba(12, 7, 24, 1)" : "rgba(12, 7, 24, 0)";
-                    }
-                    if (headerImage.current) {
-                        headerImage.current.style.width = websitePosition >= 50 ? "4vw" : "12vw";
-                    }
+        if (homeP.current) homeP.current.style.color = color;
+        if (aboutMeP.current) aboutMeP.current.style.color = "white";
+        if (projectsP.current) projectsP.current.style.color = "white";
+        const handleScroll = () => {
+            const websitePosition = window.scrollY;
+            // Changes the logo size
+            if (window.innerWidth > 767) {
+                if (header.current) {
+                    header.current.style.background = websitePosition >= 50 ? "rgba(12, 7, 24, 1)" : "rgba(12, 7, 24, 0)";
                 }
-
-                // Changes the header links color depending on which section of the page you are
-                if (homeP.current && aboutMeP.current && projectsP.current) {
-                    if (websitePosition <= 350) {
-                        homeP.current.style.color = color;
-                        aboutMeP.current.style.color = "white";
-                        projectsP.current.style.color = "white";
-                    } else if (websitePosition <= 1200) {
-                        homeP.current.style.color = "white";
-                        aboutMeP.current.style.color = color;
-                        projectsP.current.style.color = "white";
-                    } else {
-                        homeP.current.style.color = "white";
-                        aboutMeP.current.style.color = "white";
-                        projectsP.current.style.color = color;
-                    }
+                if (headerImage.current) {
+                    headerImage.current.style.width = websitePosition >= 50 ? "4vw" : "12vw";
                 }
-            };
-
-            window.addEventListener("scroll", handleScroll);
-
-            return () => {
-                window.removeEventListener("scroll", handleScroll);
-            };
-        }
-        else {
-            if(header.current){
-                header.current.style.transform = "translateY(-200%)";
             }
-        }
+            
+            // Changes the header links color depending on which section of the page you are
+            if (homeP.current && aboutMeP.current && projectsP.current) {
+                if (websitePosition <= 350) {
+                    homeP.current.style.color = color;
+                    aboutMeP.current.style.color = "white";
+                    projectsP.current.style.color = "white";
+                } else if (websitePosition <= 1200) {
+                    homeP.current.style.color = "white";
+                    aboutMeP.current.style.color = color;
+                    projectsP.current.style.color = "white";
+                } else {
+                    homeP.current.style.color = "white";
+                    aboutMeP.current.style.color = "white";
+                    projectsP.current.style.color = color;
+                }
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
     }, [width]);
 
     function handleMenu() {
