@@ -73,7 +73,7 @@ function HeaderFunc(){
                     <header ref={header} className={styles.header} >
                         <div className={styles.logo}>
                             <a href="#about-me-ID" className={styles.link}>
-                                <img className={styles.img} src="/assets/icons/logo.png" alt="Code Logo" ref={headerImage} />
+                                <img className={styles.img} src="/assets/icons/logo.webp" alt="Code Logo" ref={headerImage} />
                                 SICKPOITEW
                             </a>
                         </div>

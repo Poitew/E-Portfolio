@@ -45,7 +45,8 @@ function AboutMe(){
                         In my free time I love studying anything tech-related, reading books and listening to music;
                         sometimes I also partecipate in Hackathons, you can find all my&nbsp;
                         <a href="https://github.com/Poitew/Hackathons" className={styles.link} >projects here</a>. <br/>
-                        I think a lot so I decided to start writing all my thoughts; you can find them by clicking the link just down below. 
+                        I think a lot so I decided to start writing all my thoughts (and tutorials) in here;
+                        you can find this section by clicking the link just down below. 
                     </p>
                 </div>         
             </div>
@@ -94,7 +95,7 @@ function SectionHeader(props: SectionHeaderProps){
 function Blog_btn(){
     return(
         <div className={styles.thoughts} >
-            <Link to="/posts" className={styles.linkThoughts} >Dive into a collection of thoughts...</Link>
+            <Link to="/posts" className={styles.linkThoughts} >Browse posts...</Link>
         </div>
     );
 }

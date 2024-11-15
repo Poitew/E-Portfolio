@@ -24,6 +24,7 @@
 .list {
     width: fit-content;
     display: flex;
+    flex-wrap: wrap;
     gap: 0 3vw;
     padding: 0;
     margin: 2% 0;

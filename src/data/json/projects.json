@@ -11,12 +11,12 @@
             "MySQL"
         ],
         "github":"https://github.com/Poitew/CineCritics",
-        "src":"/assets/projects-img/cinema.jpg"
+        "src":"/assets/projects-img/cinema.webp"
     },
 
     {
-        "name":"Book Realm",
-        "description":"Full stack project that uses Vue.JS as the frontend framework and PHP with MariaDB for the backend. Book Realm helps you find your next read by suggesting a random book and giving you all the information needed. It's also provided with a search functionality that gives all the information needed about the searched book.",
+        "name":"Books Finder",
+        "description":"Full-stack project that uses Vue.JS as the frontend framework and PHP with MySQL for the backend. Books Finder helps you find your next read by suggesting a random book and giving you a brief overview of it. It also includes a search functionality that delivers all the information you need about any searched book.",
         "tech": [
             "HTML",
             "CSS",
@@ -26,7 +26,7 @@
             "API"
         ],
         "github":"https://github.com/Poitew/Book-Realm",
-        "src":"/assets/projects-img/abstract-paint.jpg"
+        "src":"/assets/projects-img/books.webp"
     },
 
     {
@@ -38,7 +38,7 @@
             "Docker"
         ],
         "github":"https://github.com/Poitew/To-Do-Son",
-        "src":"/assets/projects-img/space.jpg"
+        "src":"/assets/projects-img/space.webp"
     },
 
     {
@@ -51,6 +51,6 @@
             "React.JS + React Router"
         ],
         "github":"https://github.com/Poitew/E-Portfolio",
-        "src":"/assets/projects-img/shooting-stars.jpg"
+        "src":"/assets/projects-img/shooting-stars.webp"
     }
 ]

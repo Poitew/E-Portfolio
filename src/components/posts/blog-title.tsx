@@ -5,7 +5,7 @@ function Blog_title(){
     return(
         <div className={styles.titleContainer}>
             <h1 className={styles.title} >My Thoughts</h1>
-            <p className={styles.description} >a time capsule of myself</p>
+            <p className={styles.description} >a collection of ideas and knowledge</p>
             <Link className={styles.link} to="/">return to home...</Link>
         </div>
     );
