@@ -18,10 +18,12 @@ function AboutMe(){
                 <div className={styles.skillsContainer}>
                     <Skills
                         skills_arr={SoftwareDev_skills}
+                        title="Software Development"
                     ></Skills>
 
                     <Skills
                         skills_arr={DevOps_skills}
+                        title="DevOps"
                     ></Skills>
                 </div>
 
@@ -57,13 +59,14 @@ function AboutMe(){
 }
 
 interface SkillsProps {
+    title: string,
     skills_arr: any[]
 }
 
 function Skills(props: SkillsProps){
     return(
         <div>
-            <p className={styles.skillsTitle} >Software Development</p>
+            <p className={styles.skillsTitle} >{props.title}</p>
             <div className={styles.grid}>
                 {props.skills_arr.map((element: skill_element, index: number) => (
                     <img
