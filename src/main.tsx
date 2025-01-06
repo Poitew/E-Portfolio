@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, ScrollRestoration } from 'react-router-dom'
 import App from './views/app'
 import Blog from './views/blog'
-import Post from './views/post'
-import '/src/css/main.css'
+import Post from './views/post/post'
+import './main.css'
 
 const router = createBrowserRouter(
     [

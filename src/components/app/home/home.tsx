@@ -1,11 +1,11 @@
-import styles from "/src/css/app/home.module.css";
+import styles from "./home.module.css";
 import icons from "/src/data/json/home-icons.json";
 
 function Home(){
     return(
         <main className={styles.home} id="home" >
             <Presentation></Presentation>
-            <AsideFunc></AsideFunc>
+            <Aside></Aside>
         </main>
     );
 }
@@ -16,7 +16,7 @@ function Presentation(){
     return (
         <div className={styles.presentationContainer}>
             <h1 className={styles.presentation} >
-                I'm <span className={styles.span} >SickPoitew</span>, 
+                <span className={styles.span} >SickPoitew</span>, aspiring 
                 Software Developer and DevOps Engineer.
             </h1>
 
@@ -29,8 +29,7 @@ function Presentation(){
             </ul>
 
             <p className={styles.description} >
-                I enjoy writing code, create CI/CD pipeline, Docker Images and in general everything about the software development
-                lifecycle! <br/>
+                I enjoy building websites, lower level programming, tasks automation, and in general anything tech-related!<br/>
                 <span className={styles.spanDesc} >
                     In my free time I like to create projects and publish them on my GitHub, I also like to study, read books and write
                     all my thoughts in here. Bye!
@@ -48,17 +47,9 @@ function Presentation(){
     );
 }
 
-function AsideFunc(){
+function Aside(){
     return(
         <aside className={styles.aside}>
-            <a 
-              href="https://twitter.com/sickpoitew" 
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-                <img className={styles.asideImg} src="/assets/icons/x-twitter.svg" alt="twitter" />
-            </a>
-
             <a
               href="https://github.com/Poitew"
               rel="noopener noreferrer"

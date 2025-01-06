@@ -28,22 +28,11 @@
 
 .history {
     width: 45vw;
-    margin: 7% 0 0 0;
+    margin: 5.5% 0 0 0;
     line-height: 2;
     color: rgb(148 163 184);
     border-left: 2px solid;
     padding: 0 0 0 3vw;
-}
-
-.link {
-    text-decoration: underline;
-    color: #15b2fb;
-    transition: all 0.5s ease-in-out;
-}
-
-.link:hover {
-    color: #0f81b6;
-    text-shadow: 0 0 10px rgb(0 160 255);
 }
 
 .skillsContainer {
@@ -75,26 +64,26 @@
     transform: scale(1.3);
 }
 
-.thoughts {
+.blogBtnContainer {
     margin-bottom: 10%;
     display: flex;
     justify-content: center;
 }
 
-.linkThoughts {
+.blogBtn {
     color: #15b2fb;
     padding-bottom: 0.3%;
     transition: 0.5s all ease-in-out;
 }
 
-.linkThoughts:hover {
+.blogBtn:hover {
     text-shadow: 0 0 10px #043e57;
 }
 
 /* X-Small devices (portrait phones, less than 600px) */
 @media only screen and (max-width: 600px) {
     .section {
-        margin-bottom: 30%;
+        margin-bottom: 20%;
         flex-direction: column-reverse;
     }
 
@@ -113,7 +102,8 @@
     .history {
         width: 95%;
         border-left: 0;
-        font-size: 4vw;
+        padding-left: 0;
+        font-size: 4.5vw;
     }
 
     .skillsContainer {
@@ -133,7 +123,11 @@
     }
 
     .skills {
-        width: 8vw;
+        width: 8.5vw;
+    }
+
+    .blogBtnContainer {
+        margin-bottom: 20%;
     }
 }
 
@@ -172,7 +166,7 @@
         width: 8vw;
     }
 
-    .linkThoughts {
+    .blogBtn {
         font-size: 3vw;
     }
 }

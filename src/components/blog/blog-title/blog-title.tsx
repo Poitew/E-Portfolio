@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import styles from "/src/css/posts/post-title.module.css"
+import styles from "./blog-title.module.css"
 
 function Blog_title(){
     return(
         <div className={styles.titleContainer}>
-            <h1 className={styles.title} >My Thoughts</h1>
-            <p className={styles.description} >a collection of ideas and knowledge</p>
+            <h1 className={styles.title} >Tech journal</h1>
             <Link className={styles.link} to="/">return to home...</Link>
         </div>
     );

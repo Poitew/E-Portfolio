@@ -2,6 +2,8 @@
     width: 100%;
     height: 110vh;
     background-color: #120b1d;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Presentation */
@@ -106,12 +108,10 @@
 /* aside */
 .aside {
     width: 5vw;
-    height: 100%;
-    float: right;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    position: relative;
+    z-index: 2;
 }
 
 .asideImg {
@@ -129,13 +129,14 @@
         font-size: 10vw;
     }
 
-    .img {
-        width: 4vw;
+    .list {
+        display: none;
     }
 
     .description {
         width: 100%;
         font-size: 5vw;
+        margin-top: 10%;
     }
 
     .btn {
@@ -151,25 +152,27 @@
 
 /* Medium devices (tablets, less than 1025) */
 @media only screen and (min-width: 700px) and (max-width: 1024px) and (min-height: 700px){
+    .presentationContainer {
+        margin-top: 15%;
+    }
+
     .presentation {
-        font-size: 9vw;
+        font-size: 8vw;
     }
 
-    .li {
-        font-size: 3vw;
-    }
-
-    .img {
-        width: 4vw;
+    .list {
+        display: none;
     }
 
     .description {
-        font-size: 4.5vw;
+        font-size: 4vw;
         width: 100%;
+        margin-top: 5%;
     }
 
     .btn {
         width: 20vw;
+        margin-top: 10%;
     }
 
     .btnContent {

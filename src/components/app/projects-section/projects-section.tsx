@@ -1,7 +1,7 @@
 import projects from "/src/data/json/projects.json"
-import style from '/src/css/app/project-section.module.css'
+import style from './projects-section.module.css'
 
-function ProjectSection(){
+function ProjectsSection(){
 
     const projects_info: any[] = projects;
 
@@ -33,7 +33,7 @@ function Project(props: ProjectsProp){
     return(
         <div className={style.project} style={{ backgroundImage: `url(${props.src})`}}>
             <div className={style.info}>
-                <h3>{props.name}</h3>
+                <h3 className={style.title}>{props.name}</h3>
                 <p className={style.description} >{props.desc}</p>
 
                 <ul className={style.list} >
@@ -50,4 +50,4 @@ function Project(props: ProjectsProp){
     );
 }
 
-export default ProjectSection;
+export default ProjectsSection;

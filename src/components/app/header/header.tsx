@@ -1,5 +1,5 @@
 import {useState, useRef, useEffect} from "react"
-import styles from '/src/css/app/header.module.css'
+import styles from './header.module.css'
 import { Link } from "react-router-dom";
 
 function HeaderFunc(){

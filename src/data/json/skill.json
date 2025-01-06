@@ -36,11 +36,6 @@
         },
 
         {
-            "src":"/assets/tech/jwt-icon.svg",
-            "alt":"JWT"
-        },
-
-        {
             "src":"/assets/tech/mysql-icon.svg",
             "alt":"MySql"
         },

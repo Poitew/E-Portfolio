@@ -1,8 +1,8 @@
-import HeaderFunc from '../components/app/header'
-import Home from '../components/app/home'
-import AboutMe from '../components/app/about-me'
-import ProjectSection from '../components/app/project-section'
-import Footer from '../components/app/footer'
+import HeaderFunc from '../components/app/header/header'
+import Home from '../components/app/home/home'
+import AboutMe from '../components/app/about-me/about-me'
+import ProjectsSection from '../components/app/projects-section/projects-section'
+import Footer from '../components/app/footer/footer'
 
 function App(){
     return(
@@ -10,7 +10,7 @@ function App(){
             <HeaderFunc></HeaderFunc>
             <Home></Home>
             <AboutMe></AboutMe>
-            <ProjectSection></ProjectSection>
+            <ProjectsSection></ProjectsSection>
             <Footer></Footer>
         </>
     );

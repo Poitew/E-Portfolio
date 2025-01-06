@@ -1,4 +1,4 @@
-footer {
+.footer {
     padding-bottom: 5%;
     margin-top: 10%;
     display: flex;
@@ -22,13 +22,6 @@ footer {
 
 .li {
     list-style: none;
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .icon {

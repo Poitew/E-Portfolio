@@ -1,5 +1,5 @@
-import Blog_Card from "./post-card";
-import styles from "/src/css/posts/posts.module.css";
+import { Link } from "react-router-dom";
+import styles from "./posts.module.css";
 import posts_json from "/src/data/json/posts.json";
 
 function Posts(){
@@ -17,6 +17,23 @@ function Posts(){
                 />
             ))}
         </main>
+    );
+}
+
+interface BlogCardProps {
+    title: string;
+    date: string;
+    topic: string;
+    to: string;
+}
+
+function Blog_Card(props: BlogCardProps){
+    return(
+        <Link className={styles.post} to={props.to} >
+            <p className={styles.date} >{props.date}</p>
+            <h2 className={styles.title} >{props.title}</h2>
+            <p className={styles.topic} >- {props.topic}</p>
+        </Link>
     );
 }
 

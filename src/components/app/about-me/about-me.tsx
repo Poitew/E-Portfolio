@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import skills from "/src/data/json/skill.json"
-import styles from '/src/css/app/about-me.module.css'
+import styles from './about-me.module.css'
 
 interface skill_element {
     src: string;
@@ -23,7 +23,7 @@ function AboutMe(){
 
                     <Skills
                         skills_arr={DevOps_skills}
-                        title="DevOps"
+                        title="DevOps Engineering"
                     ></Skills>
                 </div>
 
@@ -33,22 +33,22 @@ function AboutMe(){
                     >
                     </SectionHeader>
                     <p className={styles.history}>
-                        Hi! My name is "sickpoitew". I'm a 17-year-old student and IT enthusiast settled in Italy with 4 years of 
-                        experience in programming. I'm also a Software Developer and DevOps Engineer costantly studying to enchance my
+                        Hi! I'm "sickpoitew", a 17-year-old student and IT enthusiast based in Italy with 4 years of 
+                        experience in programming. I'm an aspiring Software Developer and DevOps Engineer constantly studying to enhance my
                         knowledge.
                         <br />
                         <br />
-                        As a Software Developer I have strong experience in various languages such as HTML, CSS, JavaScript / TypeScript,
-                        React.JS, Vue.Js, PHP with JWT for Login, MySQL and outside of web development: C++.
-                        While as a DevOps I have experience in using the Linux operating system and Bash/Python for automating tasks, I'm also
-                        proficient in using tools such as Docker for deployment and Jenkins for CI/CD.
+                        My expertise in software development is focused on full-stack development, and as such I have a strong
+                        experience with languages such as HTML, CSS, JavaScript/TypeScript, ReactJS and VueJS for front-end, as well as
+                        PHP and MySQL for the back-end.
+                        I also have a deep interest in a lower level programming, particularly with C++.
+                        As a DevOps enthusiast I have experience in using Linux-based operating systems, Bash/Python for automating tasks, 
+                        Docker for both containerization and deployment, and Jenkins for CI/CD.
                         <br/>
                         <br />
-                        In my free time I love studying anything tech-related, reading books and listening to music;
-                        sometimes I also partecipate in Hackathons, you can find all my&nbsp;
-                        <a href="https://github.com/Poitew/Hackathons" className={styles.link} >projects here</a>. <br/>
-                        I think a lot so I decided to start writing all my thoughts (and tutorials) in here;
-                        you can find this section by clicking the link just down below. 
+                        In my free time I love studying anything tech-related, reading books and listening to music.
+                        I also have a blog where I write my opinions, thoughts and share tutorials in hope that they will be useful;
+                        link below. 
                     </p>
                 </div>         
             </div>
@@ -97,8 +97,8 @@ function SectionHeader(props: SectionHeaderProps){
 
 function Blog_btn(){
     return(
-        <div className={styles.thoughts} >
-            <Link to="/posts" className={styles.linkThoughts} >Browse posts...</Link>
+        <div className={styles.blogBtnContainer} >
+            <Link to="/posts" className={styles.blogBtn} >Browse posts...</Link>
         </div>
     );
 }

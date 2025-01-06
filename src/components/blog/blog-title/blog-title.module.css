@@ -12,6 +12,10 @@
 
 /* X-Small devices (portrait phones, less than 600px) */
 @media only screen and (max-width: 600px) {
+    .titleContainer {
+        margin-bottom: 15%;
+    }
+
     .title {
         font-size: 10vw;
     }
