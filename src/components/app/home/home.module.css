@@ -1,0 +1,185 @@
+.home {
+    width: 100%;
+    height: 110vh;
+    background-color: #120b1d;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Presentation */
+.presentationContainer {
+    float: left;
+    width: 80vw;
+    margin: 10% 0 0 8%;
+}
+
+.presentation {
+    word-spacing: 0.5vw;
+    color: white;
+    letter-spacing: -0.05em;
+}
+
+.span {
+    color: #0ea5e9;
+}
+
+.list {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 3vw;
+    padding: 0;
+    margin: 2% 0;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    transition: transform 0.5s ease-in-out;
+}
+
+.li:hover {
+    transform: scale(1.2);
+}
+
+.img {
+    width: 2vw;
+}
+
+.description {
+    font-size: 1.4vw;
+    width: 80%;
+    color: rgb(148 163 184);
+}
+
+.spanDesc {
+    display: block;
+    padding-top: 2rem;
+}
+
+.btn {
+    width: 13vw;
+    height: 7vh;
+    border: 2px solid #595265;
+    border-radius: 0.5vw;
+    float: left;
+    transition: all 1s ease-in-out;
+    margin-top: 5%;
+}
+
+.btnContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #3f2e59;
+}
+
+.btn2 {
+    margin: 5% 5% 0 40%;
+    background-color: #2a2039;
+    box-shadow: 0px 0px 66px 2px rgba(45,255,196,0.47);
+    color: rgb(17, 169, 0);
+    transition: all 1s ease-in-out;
+}
+
+.btn2:hover {
+    box-shadow: 0px 0px 66px 2px rgba(45,255,196,1);
+}
+
+.glow {
+    width: 25vw; 
+    height: 25vw;
+    margin-left: 65%;
+    margin-top: -10%;
+    border-radius: 50%;
+    background-color: rgba(26, 118, 97, 0.5); 
+    box-shadow: 0 0 50px rgba(26, 118, 97, 0.5),
+                inset 0 0 50px rgba(26, 118, 97, 0.5); 
+    filter: blur(60px);
+    position: absolute;
+}
+
+/* aside */
+.aside {
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.asideImg {
+    width: 3vw;
+}
+
+/* X-Small devices (portrait phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .presentationContainer {
+        width: 90vw;
+        margin: 20% 0 0 3%;
+    }
+
+    .presentation {
+        font-size: 10vw;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 5vw;
+        margin-top: 10%;
+    }
+
+    .btn {
+        width: 25vw;
+        height: 5vh;
+        margin-left: 0;
+    }
+
+    .aside {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, less than 1025) */
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (min-height: 700px){
+    .presentationContainer {
+        margin-top: 15%;
+    }
+
+    .presentation {
+        font-size: 8vw;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .description {
+        font-size: 4vw;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .btn {
+        width: 20vw;
+        margin-top: 10%;
+    }
+
+    .btnContent {
+        font-size: 2.5vw;
+    }
+
+    .aside {
+        display: none;
+    }
+}
