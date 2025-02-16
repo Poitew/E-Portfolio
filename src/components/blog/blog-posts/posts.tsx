@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./Posts.module.css";
+import styles from "./posts.module.css";
 import posts_json from "/src/data/json/posts.json";
 
 function Posts(){
